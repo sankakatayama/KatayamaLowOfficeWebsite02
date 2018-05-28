@@ -1,0 +1,109 @@
+/*  Universal style  */
+body { padding-top: 50px; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+.footer{
+  height: 220px;
+  background-color: #f5f5f5;
+}
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/*　　ここからは、さんかが入れたコード　　*/
+
+/*  Headder Section  */
+.navbar-header{
+  display: flex;
+  align-items: center;
+}
+
+/*  Jumbotron Section  */
+
+.jumbotron p,h1{
+  text-align: center;
+}
+
+.jumbotron h1{
+  font-size: 30px;
+}
+
+.jumbotron p{
+  font-weight: bold;
+  margin-top: 15px;
+}
+.jumbotron .point1{
+  color: #2e6da4;
+}
+.jumbotron .point2{
+  color: #b22222;
+}
+
+.jumbotron .btn-lg{
+  margin: 10px auto;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 992px) {
+  .jumbotron h1{
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .jumbotron h1{
+    font-size: 40px;
+  }
+}
+
+/*  Lawyer-Img section  */
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+
+/*  Main Section  */
+
+.text1 p{
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+/* Footer section  */
+
+footer p{
+  text-align: center;
+  font-size: 18px;
+  line-height: 160%;
+}
