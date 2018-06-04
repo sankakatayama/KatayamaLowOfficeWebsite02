@@ -1,6 +1,69 @@
 /*  Universal style  */
 body { padding-top: 50px; }
 
+/*  Font Size
+---------------------------------------------*/
+
+
+@media (max-width: 575.98px) {
+  p{
+    font-size: 16px;
+  }
+  h1{
+    font-size: 28px;
+  }
+  h2{
+    font-size: 20px;
+  }
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  p{
+    font-size: 16px;
+  }
+  h1{
+    font-size: 33px;
+  }
+  h2{
+    font-size: 23px;
+  }
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  p{
+    font-size: 16px;
+  }
+  h2{
+    font-size: 25px;
+  }
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  p{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 25px;
+  }
+
+ }
+
+
+@media (min-width: 1200px) {
+  p{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 25px;
+  }
+ }
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -30,6 +93,7 @@ body > .container {
 .container .text-muted {
   margin: 20px 0;
   font-size: 18px;
+
 }
 
 .footer > .container {
@@ -41,12 +105,10 @@ body > .container {
 
 /*  Headder Section  */
 .navbar-default .navbar-brand {
-  color: #6b8e23;
+  color: #5B6F02;
   font-weight: bold;
 }
-.navbar-nav a{
-  font-size: 17px;
-}
+
 
 /*  Jumbotron Section  */
 
@@ -54,9 +116,6 @@ body > .container {
   text-align: center;
 }
 
-.jumbotron h1{
-  font-size: 30px;
-}
 
 .jumbotron p{
   font-weight: bold;
@@ -74,17 +133,6 @@ body > .container {
   padding: 15px;
 }
 
-@media only screen and (min-width: 992px) {
-  .jumbotron h1{
-    font-size: 50px;
-  }
-}
-
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  .jumbotron h1{
-    font-size: 40px;
-  }
-}
 
 /*  Lawyer-Img section  */
 
@@ -99,15 +147,40 @@ body > .container {
 
 .text1 p{
   text-align: center;
-  font-size: 16px;
 }
 
+
+/*  About Page  */
+
+.name h1{
+  color: #5B6F02;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+
+
+
+.hidenori-photo{
+  display: flex;
+  justify-content: center;
+}
+
+/*  Grid System  */
+
+
+
+
+.row h2{
+  background-color: #5B6F02;
+  color: white;
+  padding: 8px;
+}
 
 
 /* Footer section  */
 
 footer p{
   text-align: center;
-  font-size: 18px;
   line-height: 160%;
 }
