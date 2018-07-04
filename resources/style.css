@@ -1,104 +1,99 @@
 /*  Universal style  */
-body { padding-top: 50px; }
+body {
+  padding-top: 50px;
+}
+
+p{
+  line-height: 1.8;
+}
 
 /*  Font Size
 ---------------------------------------------*/
 
 
 @media (max-width: 575.98px) {
-  p,li{
-    font-size: 16px;
-  }
   h1{
-    font-size: 28px;
+    font-size: 24px;
   }
   h2{
     font-size: 20px;
   }
-  .jumbotron h1{
-    font-size: 30px;
-    font-weight: bold;
+  p,li,address{
+    font-size: 16px;
   }
   .jumbotron p{
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
+  .jumbotron .point3{
+    font-size: 26px;
+  }
+
 
  }
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  p,li{
+  .jumbotron .point3{
+    font-size: 30px;
+  }
+  p,li,address{
     font-size: 16px;
   }
-  h1{
-    font-size: 33px;
-  }
-  h2{
-    font-size: 23px;
-  }
-  .jumbotron h1{
-    font-size: 35px;
-    font-weight: bold;
-  }
-  .jumbotron p{
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 25px;
-  }
+
+
 
  }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  p,li{
+  body{
+    padding-top: 100px;
+  }
+
+
+  .jumbotron{
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+  .jumbotron .point3{
+    font-size: 30px;
+  }
+
+  p,li,address{
     font-size: 16px;
   }
 
-  .jumbotron h1{
-    font-size: 50px;
-  }
-  .jumbotron p{
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 30px;
-  }
+
 
  }
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  p,li{
+
+
+  .jumbotron .point3{
+    font-size: 30px;
+  }
+  p,li,address{
     font-size: 18px;
   }
 
-  .jumbotron h1{
-    font-size: 50px;
-  }
 
-  .jumbotron p{
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 30px;
-  }
 
  }
 
 
 @media (min-width: 1200px) {
-  p,li{
+  .jumbotron .point3{
+    font-size: 30px;
+  }
+
+  p,li,address{
     font-size: 18px;
   }
 
-  .jumbotron h1{
-    font-size: 50px;
-  }
 
-  .jumbotron p{
-    font-weight: bold;
-    margin-top: 15px;
-    font-size: 30px;
-  }
+
+
 
   }
 
@@ -112,12 +107,12 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 200px;
 }
 
 
 .footer{
-  height: 178px;
+  height: 200px;
   background-color: #f5f5f5;
 }
 
@@ -143,6 +138,16 @@ body > .container {
 
 /*　　ここからは、さんかが入れたコード　　*/
 
+/*  TextのStyle  */
+h2{
+  margin-bottom: 30px;
+}
+address{
+  line-height: 1.8;
+}
+
+
+
 /*  Headder Section  */
 .navbar-default .navbar-brand {
   color: #5B6F02;
@@ -166,14 +171,9 @@ body > .container {
 }
 
 
+
 /*  Lawyer-Img section  */
 
-.img-responsive{
-  max-width: 100%;
-  height: auto;
-  display: block;
-
-}
 
 
 /*  About Page  */
@@ -182,20 +182,59 @@ body > .container {
   margin-bottom: 23px;
 }
 
-
 .hidenori-photo{
   display: flex;
   justify-content: center;
 }
 
+
 /*  Grid System  */
 
 
-.row h2{
+.row01 h2{
+  font-size: 20px;
   background-color: #5B6F02;
   color: white;
   padding: 8px;
 }
+
+.row02 h2{
+  font-size: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: thin;
+  background-color: #6b8e23;
+  color: white;
+}
+
+
+
+.row02 .col-6{
+  padding: 10px;
+
+}
+.row02,img{
+  border: 5px;
+}
+
+.row02 .center-block{
+  margin-top: 20px;
+}
+
+.row03{
+  border: solid;
+  border-width: thin;
+  border-color: #6b8e23;
+  background-color: #f5f5f5;
+
+}
+.row03 a{
+  color: darkolivegreen;
+}
+
+
 
 /*  PageNation  */
 
@@ -213,7 +252,20 @@ body > .container {
 /*  Form  */
 
 
+/*  Table  */
 
+td{
+  font-size: 16px;
+}
+table,h3{
+  margin-top: 30px;
+}
+table,h4{
+  font-size: 20px;
+}
+table,h5{
+  font-size: 17px;
+}
 
 /*  List  */
 
@@ -221,11 +273,36 @@ body > .container {
   margin-top: 10px;
 }
 
+/*  Divorce  */
+
+.divorce-performance h3,h4{
+  color: #4682b4;
+}
+
+
+.jumbotron-rikon{
+  background-color: #7F0505;
+  color: white;
+}
+.jumbotron-rikon p{
+  font-size: 26px;
+}
+
+.jumbotron-shinken{
+  background-color: olive;
+  color: white;
+}
+.jumbotron-shinken a{
+  color: white;
+}
+
+
+
+
 
 
 /* Footer section  */
 
-footer p{
-  text-align: center;
-  line-height: 160%;
+address{
+  margin: 50px;
 }
