@@ -18,9 +18,16 @@ p{
   h2{
     font-size: 20px;
   }
+  h3{
+    font-size: 18px;
+  }
   p,li,address{
     font-size: 16px;
   }
+  .jumbotron h1{
+    font-size: 44px;
+  }
+
   .jumbotron p{
     font-size: 16px;
   }
@@ -28,14 +35,32 @@ p{
     font-size: 26px;
   }
 
+  .panel-title{
+    font-size: 18px;
+  }
+
 
  }
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+
+  .jumbotron h1{
+    font-size: 44px;
+  }
+
   .jumbotron .point3{
     font-size: 30px;
   }
+
+  .panel-title{
+    font-size: 24px;
+  }
+
+  h2{
+    font-size: 24px;
+  }
+
   p,li,address{
     font-size: 16px;
   }
@@ -51,10 +76,22 @@ p{
 
 
   .jumbotron{
-    padding-top: 80px;
+    padding-top: 19px;
     padding-bottom: 20px;
   }
+.jumbotron h1{
+  font-size: 50px;
+}
+
   .jumbotron .point3{
+    font-size: 30px;
+  }
+
+  .panel-title{
+    font-size: 24px;
+  }
+
+  h2{
     font-size: 30px;
   }
 
@@ -69,34 +106,50 @@ p{
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+  .jumbotron h1{
+    font-size: 50px;
+  }
 
   .jumbotron .point3{
     font-size: 30px;
   }
+
+  .panel-title{
+    font-size: 24px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
   p,li,address{
     font-size: 18px;
   }
-
-
-
- }
-
+}
 
 @media (min-width: 1200px) {
-  .jumbotron .point3{
+
+  h2{
     font-size: 30px;
   }
-
   p,li,address{
     font-size: 18px;
   }
 
-
-
-
-
+  .jumbotron h1{
+    font-size: 50px;
   }
 
+  .jumbotron .point3{
+    font-size: 30px;
+  }
+
+  .panel-title{
+    font-size: 24px;
+  }
+
+
+}
 
 
 /* Sticky footer styles
@@ -153,6 +206,7 @@ address{
   color: #5B6F02;
   font-weight: bold;
 }
+
 
 
 /*  Jumbotron Section  */
@@ -273,6 +327,25 @@ table,h5{
   margin-top: 10px;
 }
 
+.childcustody-performance ol{
+  list-style: disc;
+  margin-left: 50px;
+}
+
+/*  無料法律相談告知  */
+
+.announcement{
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.announcement p{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.announcement .btn{
+  margin-bottom: 60px;
+}
 /*  Divorce  */
 
 .divorce-performance h3,h4{
@@ -284,9 +357,10 @@ table,h5{
   background-color: #7F0505;
   color: white;
 }
-.jumbotron-rikon p{
-  font-size: 26px;
+.jumbotron-rikon h1{
+  margin-bottom: 20px;
 }
+
 
 .jumbotron-shinken{
   background-color: olive;
@@ -297,7 +371,21 @@ table,h5{
 }
 
 
+.jumbotron-sozoku{
+  background-color: teal;
+  color: white;
+}
 
+/*  Child Custody  */
+
+
+#cp001{
+  padding-top: 100px;
+}
+
+#cp002{
+  padding-top: 100px;
+}
 
 
 
