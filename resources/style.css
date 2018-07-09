@@ -95,7 +95,7 @@ p{
     font-size: 30px;
   }
 
-  p,li{
+  p,li,address{
     font-size: 16px;
   }
 
@@ -122,7 +122,7 @@ p{
     font-size: 30px;
   }
 
-  p,li{
+  p,li,address{
     font-size: 18px;
   }
 }
@@ -132,7 +132,7 @@ p{
   h2{
     font-size: 30px;
   }
-  p,li{
+  p,li,address{
     font-size: 18px;
   }
 
@@ -334,8 +334,8 @@ table,h5{
 /*  無料法律相談告知  */
 
 .announcement{
-  background-color: whitesmoke;
-  border-radius: 5px;
+  background-color: dimgray;
+  color: white;
 }
 
 .announcement p{
@@ -350,10 +350,6 @@ table,h5{
 
 /*  Divorce  */
 
-
-.divorce-performance h3,h4{
-  color: #4682b4;
-}
 .divorce-performance h3{
   padding-top: 70px;
 }
@@ -369,6 +365,12 @@ table,h5{
 
 .page-header-rikon h1{
   color: darkred;
+  margin-bottom: 20px;
+}
+
+.jumbotron-hurin {
+  background-color: indigo;
+  color: white;
 }
 
 
@@ -386,6 +388,36 @@ table,h5{
 
 .jumbotron-sozoku{
   background-color: teal;
+  color: white;
+}
+
+.jumbotron-labor{
+  background-color: darkcyan;
+  color: white;
+}
+
+.jumbotron-hasan{
+  background-color: darkgreen;
+  color: white;
+}
+
+.jumbotron-komon{
+  background-color: maroon;
+  color: white;
+}
+
+.jumbotron-apartment{
+  background-color: seagreen;
+  color: white;
+}
+
+.jumbotron-architecture{
+  background-color: teal;
+  color: white;
+}
+
+.jumbotron-trafficaccident{
+  background-color: navy;
   color: white;
 }
 
