@@ -324,11 +324,19 @@ table,h5{
 
 .list-square{
   margin-top: 10px;
+
 }
 
 .childcustody-performance ol{
   list-style: disc;
   margin-left: 50px;
+}
+
+ul{
+  list-style-type: square;
+}
+li{
+  margin-left: 30px;
 }
 
 /*  無料法律相談告知  */
