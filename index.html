@@ -17,13 +17,33 @@
 <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="resources/style.css" type="text/css">
+
+
+<!-- Google 構造化データ マークアップ支援ツールが生成した JSON-LD マークアップです。 -->
+    <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "LocalBusiness",
+      "name" : "片山ひでのり法律事務所",
+      "image" : "https://katayama-law.jp/resources/images/lawyer_katayama&kemeko2.png",
+      "telephone" : "電話 050-3188-0970",
+      "email" : "info@katayama-law.jp",
+      "address" : {
+        "@type" : "PostalAddress",
+        "streetAddress" : "１３−３ ＴＫビル４階",
+        "addressLocality" : "静岡市駿河区南町",
+        "postalCode" : "422-8067"
+      }
+    }
+    </script>
+
   </head>
   <body>
 
 <!-- Headder Section  -->
 
 <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -62,6 +82,7 @@
       <p class="point1 text-center"><strong>静岡駅から徒歩２分</strong></p>
       <p class="text-center"><strong>平日は<span class="point2 text-center">午後７時</span>まで・<span class="point2 text-center">土曜日</span>は隔週で営業中</strong></p>
       <p class="text-center"><strong>初回の法律相談は<span class="point1">１時間無料</span>です。</strong></p>
+      <p class="text-center"><strong>ご相談はすべて代表弁護士が伺います。</strong></p>
       <p class="text-center"><a class="btn btn-primary btn-lg" href="consultation.html" role="button">無料法律相談について詳しく</a></p>
     </div>
     <div class="container">
@@ -75,48 +96,7 @@
       </div>
    </div>
 
-<!--  Form  --
-
-  <div class="container">
-     <h2 class="text-center"><strong>ご予約フォーム</strong></h2>
-     <form action="mail.php" method="post" class="form-horizontal">
-       <div class="form-group">
-         <label for="inputEmail3" class="col-sm-2 control-label">メールアドレス</label>
-         <div class="col-sm-10">
-           <input type="email" class="form-control" id="inputEmail3" placeholder="メールアドレス">
-         </div>
-       </div>
-       <div class="form-group">
-         <label for="text" class="col-sm-2 control-label">お名前（フルネーム）</label>
-         <div class="col-sm-10">
-           <input type="text" class="form-control" placeholder="お名前（フルネーム）">
-         </div>
-       </div>
-       <div class="form-group">
-         <label for="text" class="col-sm-2 control-label">お名前　ふりがな</label>
-         <div class="col-sm-10">
-           <input type="text" class="form-control" placeholder="お名前　ふりがな">
-         </div>
-       </div>
-       <div class="form-group">
-         <label for="text" class="col-sm-2 control-label">携帯電話番号</label>
-         <div class="col-sm-10">
-           <input type="text" class="form-control" placeholder="携帯電話番号">
-         </div>
-       </div>
-       <div class="form-group">
-         <label for="text" class="col-sm-2 control-label">ご相談内容</label>
-         <div class="col-sm-10">
-           <textarea class="form-control" rows="3" placeholder="ご相談内容"></textarea>
-         </div>
-       </div>
-       <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">送信する</button>
-        </div>
-      </div>
-    </form>
-  </div>
+<!--  Form  -->
 
 
 

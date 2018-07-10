@@ -23,7 +23,7 @@
 <!-- Headder Section  -->
 
 <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -70,14 +70,31 @@
       </div>
     </div>
 
-<!--  Bread Crumbs  -->
+<!--  離婚Nav  -->
     <div class="container">
-      <ol class="breadcrumb">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../divorce/divorce-top.html">離婚</a></li>
-        <li class="active">親権</li>
-      </ol>
-  </div>
+      <ul class="nav nav-pills">
+        <li role="presentation" class="dropdown active">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            離婚 <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li role="presentation"><a href="../divorce/divorce-tyotei.html"> 離婚調停 </a></li>
+            <li role="presentation"><a href="../divorce/divorce-menko.html"> 面会交流 </a></li>
+            <li role="presentation"><a href="../divorce/divorce-performance.html"> 離婚の実績 </a></li>
+          </ul>
+        </li>
+        <li role="presentation" class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            親権 <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li role="presentation"><a href="../childcustody/childcustody.html"> 父親の親権 </a></li>
+            <li role="presentation"><a href="../childcustody/childcustody-performance.html"> 父親の親権の実績 </a></li>
+            <li role="presentation"><a href="../childcustody/father-tyotei.html"> 父親の面会交流調停 </a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
 
 <!-- Content  -->
