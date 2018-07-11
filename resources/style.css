@@ -170,6 +170,15 @@ body {
   background-color: #f5f5f5;
 }
 
+.footer-link{
+  background-color: dimgray;
+  color: white;
+  padding-top: 20px;
+}
+.footer-link a{
+  color: white;
+}
+
 
 
 /* Custom page CSS
@@ -209,12 +218,12 @@ h2{
 
 
 /*  Headder Section  */
-.navbar-inverse{
+.navbar{
+
 
 }
 
 .navbar-inverse .navbar-brand{
-  color: yellowgreen;
   font-weight: bolder;
 }
 
@@ -251,10 +260,27 @@ h2{
   margin-bottom: 23px;
 }
 
+.color-olive{
+  color: olive;
+}
+
 .hidenori-photo{
   display: flex;
   justify-content: center;
 }
+
+.kameko-green{
+  background-color: olive;
+}
+.color-white{
+  color: white;
+}
+
+.kameko-test{
+  padding-bottom: 20px;
+}
+
+
 
 
 
@@ -263,7 +289,7 @@ h2{
 
 .row01 h2{
   font-size: 20px;
-  background-color: #5B6F02;
+  background-color: olive;
   color: white;
   padding: 8px;
 }
@@ -316,7 +342,7 @@ h2{
 /*  Page Header  */
 
 .text-green{
-  color: #5B6F02;
+  color: olive;
 }
 
 /*  Form  */
@@ -356,11 +382,17 @@ table,h5{
   margin-left: 30px;
 }
 
+.privacy-policy ol{
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
 /*  無料法律相談告知  */
 
 .announcement{
-  background-color: dimgray;
+  background-color: olive;
   color: white;
+  padding-top: 30px;
 }
 
 .announcement p{
@@ -474,4 +506,10 @@ table,h5{
 /* Footer section  */
 address{
   margin-top: 20px;
+}
+
+.link-area{
+  background-color: gainsboro;
+  margin-top: 20px;
+  padding-top: 20px;
 }
