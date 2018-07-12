@@ -415,6 +415,13 @@ table,h5{
 
 /*  Divorce  */
 
+.text-rikon a{
+  color: darkred;
+}
+.text-rikon small{
+  color: darkred;
+}
+
 .divorce-performance h3{
   padding-top: 70px;
 }
@@ -432,6 +439,13 @@ table,h5{
   color: darkred;
   margin-bottom: 20px;
 }
+
+.ol-decimal li{
+  list-style: decimal;
+  margin-left: 30px;
+}
+
+
 
 .jumbotron-hurin {
   background-color: indigo;
