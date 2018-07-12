@@ -1,0 +1,5 @@
+<!-- wwwなしに統一 -->
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.katayama-law\.jp$
+RewriteRule ^(.*)$ http://katayama-law.jp/$1 [R=301,L]
