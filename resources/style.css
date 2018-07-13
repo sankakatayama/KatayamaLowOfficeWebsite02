@@ -213,6 +213,10 @@ h2{
 
 }
 
+.page-header h1{
+  padding-bottom: 18px;
+}
+
 
 
 
@@ -511,6 +515,7 @@ table,h5{
 /*  Child Custody  */
 
 
+
 #cp001{
   padding-top: 100px;
 }
@@ -519,6 +524,22 @@ table,h5{
   padding-top: 100px;
 }
 
+
+
+/*  予約お知らせ  */
+
+.test-info{
+  background-color: steelblue;
+  padding-top: 20px;
+  color: darkred;
+}
+.test-info a{
+  color: white;
+}
+.glyphicon-earphone{
+  color: darkred;
+  margin-left: 15px;
+}
 
 
 /* Footer section  */
