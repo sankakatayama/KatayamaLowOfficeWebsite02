@@ -497,6 +497,11 @@ table,h5{
   color: white;
 }
 
+.page-header-komon h1{
+  color: maroon;
+  margin-bottom: 20px;
+}
+
 .jumbotron-apartment{
   background-color: seagreen;
   color: white;
