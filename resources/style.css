@@ -384,14 +384,17 @@ table,h5{
 
 }
 
+.list-style-square{
+  list-style: square;
+  margin-left: 35px;
+}
+
 .childcustody-performance ol{
   list-style: disc;
   margin-left: 50px;
 }
 
-.childcustody-performance ul{
-  list-style-type: square;
-}
+
 .childcustody-performance li{
   margin-left: 30px;
 }
@@ -457,13 +460,13 @@ table,h5{
 }
 
 
-
+/*  不倫  */
 .jumbotron-hurin {
   background-color: indigo;
   color: white;
 }
 
-
+/*  親権  */
 .jumbotron-shinken{
   background-color: olive;
   color: white;
@@ -476,16 +479,20 @@ table,h5{
 }
 
 
+/*  相続  */
+
 .jumbotron-sozoku{
   background-color: teal;
   color: white;
 }
 
+/*  労働問題  */
+
 .jumbotron-labor{
   background-color: darkcyan;
   color: white;
 }
-
+/*　破産　*/
 .jumbotron-hasan{
   background-color: darkgreen;
   color: white;
@@ -498,7 +505,7 @@ table,h5{
   color: darkgreen;
   margin-bottom: 20px;
 }
-
+/*　顧問　*/
 .jumbotron-komon{
   background-color: maroon;
   color: white;
@@ -508,21 +515,25 @@ table,h5{
   color: maroon;
   margin-bottom: 20px;
 }
-
+/*  建物明渡  */
 .jumbotron-apartment{
   background-color: seagreen;
   color: white;
 }
-
+/*  建築訴訟  */
 .jumbotron-architecture{
   background-color: teal;
   color: white;
 }
-
+/*  交通事故  */
 .jumbotron-trafficaccident{
   background-color: navy;
   color: white;
 }
+.pege-header-trafficaccident{
+  color: navy;
+}
+
 
 /*  Child Custody  */
 
