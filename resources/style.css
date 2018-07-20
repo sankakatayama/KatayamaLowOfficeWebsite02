@@ -202,6 +202,11 @@ body > .container {
 /*　　ここからは、さんかが入れたコード　　*/
 
 /*  TextのStyle  */
+
+.mt-30{
+  margin-top: 30px;
+}
+
 h2{
   margin-bottom: 30px;
 }
