@@ -256,6 +256,15 @@ h2{
 }
 
 
+/*  Top Page  */
+
+.top-point{
+  padding: 15px;
+}
+
+ .bg-grey{
+  background-color: #f5f5f5;
+}
 
 /*  Lawyer-Img section  */
 
@@ -292,8 +301,6 @@ h2{
 .kameko-test{
   padding-bottom: 20px;
 }
-
-
 
 
 
@@ -341,6 +348,11 @@ h2{
 }
 .row03 a{
   color: darkolivegreen;
+}
+
+.top-photo-small{
+  padding: 5px;
+  padding-bottom: 30px;
 }
 
 

@@ -78,7 +78,7 @@ $confirmDsp = 1;
 $jumpPage = 1;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。
-$thanksPage = "https://katayama-law.jp/thanks.html";
+$thanksPage = "https://katayama-law.jp/form/thanks.html";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 1;
@@ -219,12 +219,12 @@ else if($confirmDsp == 1){
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
 <title>確認画面</title>
 <style type="text/css">
-/* 自由に編集下さい */
+/* Strat  自由に編集下さい */
 #formWrap {
-	width:700px;
+	max-width: 700px;
 	margin:0 auto;
 	color:#555;
 	line-height:120%;
@@ -250,15 +250,19 @@ p.error_messe{
 	color:red;
 }
 </style>
+
 </head>
 <body>
+
+
+<!--   End  自由に編集下さい   -->
 
 <!-- ▲ Headerやその他コンテンツなど　※自由に編集可 ▲-->
 
 <!-- ▼************ 送信内容表示部　※編集は自己責任で ************ ▼-->
 <div id="formWrap">
 <?php if($empty_flag == 1){ ?>
-<div align="center">
+<div align="center" class="container">
 <h4>入力にエラーがあります。下記をご確認の上「戻る」ボタンにて修正をお願い致します。</h4>
 <?php echo $errm; ?><br /><br /><input type="button" value=" 前画面に戻る " onClick="history.back()">
 </div>
@@ -266,7 +270,7 @@ p.error_messe{
 <h3>確認画面</h3>
 <p align="center">以下の内容で間違いがなければ、「送信する」ボタンを押してください。</p>
 <form action="<?php echo h($_SERVER['SCRIPT_NAME']); ?>" method="POST">
-<table class="formTable">
+<table class="formTable ">
 <?php echo confirmOutput($_POST);//入力内容を表示?>
 </table>
 <p align="center"><input type="hidden" name="mail_set" value="confirm_submit">
@@ -274,7 +278,9 @@ p.error_messe{
 <input type="submit" value="　送信する　">
 <input type="button" value="前画面に戻る" onClick="history.back()"></p>
 </form>
+</div>
 <?php } ?>
+</div>
 </div><!-- /formWrap -->
 <!-- ▲ *********** 送信内容確認部　※編集は自己責任で ************ ▲-->
 
