@@ -120,38 +120,45 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
           <li class="list-square">お電話での法律相談は承っておりません。 <a href="#no-phone">詳しくはこちら。＞</a></li>
         </ul>
       </div>
-      <div class="container">
+      <div class="container reservation-tel">
         <h2 class="under-line">お電話でのご予約</h2>
           <p><strong>初回法律相談専用 <a href="tel:05031886226">０５０−３１８８−６２２６</a></strong> までお電話下さい。</p>
         <h4><strong>営業時間</strong></h4><p>平日は<strong>午前１０時から午後７時</strong>まで</p>
           <p>土曜日（隔週営業）は<strong>午前１０時から午後６時</strong>まで</p>
       </div>
-      <div class="container">
-        <h2 class="under-line">フォームでのご予約</h2>
-        <p class="text-center"><a class="btn btn-info btn-lg" href="mailform-v6.2/index.html" role="button">営業時間外のご予約はフォームでどうぞ</a></p>
-      </div>
 
 
+<!--  Form  -->
 
-<!--  Mailでの問い合わせSection  --
 
-      <div class="container">
-        <h2 class="under-line">メールでのご予約</h2>
-        <p><strong><a onclick="return gtag_report_conversion('mailto:info@katayama-law.jp');" href="mailto:info@katayama-law.jp">info@katayama-law.jp</a></strong>に、下記の項目を入れて送信してください。</p>
-          <ul>
-            <li class="list-square"><strong>お名前（フルネーム）</strong></li>
-            <li class="list-square"><strong>お名前（ふりがな）</strong></li>
-            <li class="list-square"><strong>携帯電話番号</strong></li>
-            <li class="list-square"><strong>相談内容</strong></li>
-          </ul>
-          <p>２、３日経っても連絡がない場合は、恐れ入りますが、 <strong><a href="tel:05031886226">０５０−３１８８−６２２６</a></strong> までお電話ください。</p>
-      </div>
-      <div class="container">
-        <h2>相談料</h2>
-          <ul class="list-group">
-            <li class="list-group-item">初回1時間　無料</li>
-            <li class="list-group-item">2回目以降　1時間あたり10,800円</li>
-          </ul>
+      <div class="container-fluid kameko-green">
+           <div class="container">
+             <h2 class="under-line">お問い合わせフォーム</h2>
+             <form method="post" action="form/mail.php">
+               <div class="form-group">
+                 <label for="exampleInputName1">お名前（フルネーム）</label>
+                 <input name="お名前" type="text" class="form-control" id="exampleInputName1" placeholder="お名前（フルネーム）">
+               </div>
+               <div class="form-group">
+                 <label for="exampleInputName2">お名前（ふりがな）</label>
+                 <input name="ふりがな" type="text" class="form-control" id="exampleInputName2" placeholder="ふりがな">
+               </div>
+               <div class="form-group">
+                 <label>携帯電話番号</label>
+                 <input name="携帯電話番号" type="text" class="form-control" placeholder="携帯電話番号">
+               </div>
+               <div class="form-group">
+                 <label for="exampleInputEmail1">メールアドレス</label>
+                 <input name="メールアドレス" type="email" class="form-control" id="exampleInputEmail1" placeholder="メールアドレス">
+               </div>
+               <div class="form-group">
+                 <label>簡単なご相談内容</label>
+                 <textarea name="相談内容" class="form-control" rows="3" placeholder="簡単なご相談内容"></textarea>
+               </div>
+
+                 <p class="text-center"><button type="submit" class="btn btn-default">送信する</button></p>
+             </form>
+           </div>
       </div>
 
 
