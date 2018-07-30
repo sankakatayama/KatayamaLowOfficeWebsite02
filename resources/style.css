@@ -402,7 +402,19 @@ table,h5{
 .list-style-square{
   list-style: square;
   margin-left: 35px;
+  line-height: 200%;
 }
+
+.ol-decimal .list-style-square li{
+  list-style: square;
+  font-weight: normal;
+
+}
+
+.ol-decimal li{
+  font-weight: bold;
+}
+
 
 .childcustody-performance ol{
   list-style: disc;
@@ -471,9 +483,16 @@ table,h5{
   margin-bottom: 20px;
 }
 
+
+/*  List  */
+
 .ol-decimal li{
   list-style: decimal;
   margin-left: 30px;
+}
+
+.ol-decimal li ul{
+  list-style: disc;
 }
 
 
@@ -549,6 +568,10 @@ table,h5{
 }
 .pege-header-trafficaccident{
   color: navy;
+}
+
+.trafficaccident-check .glyphicon-check{
+  color: dodgerblue;
 }
 
 
