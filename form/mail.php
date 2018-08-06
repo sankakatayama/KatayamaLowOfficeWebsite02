@@ -61,7 +61,7 @@ $Referer_check_domain = "katayama-law.jp";
 // 管理者宛のメールで差出人を送信者のメールアドレスにする(する=1, しない=0)
 // する場合は、メール入力欄のname属性の値を「$Email」で指定した値にしてください。
 //メーラーなどで返信する場合に便利なので「する」がおすすめです。
-$userMail = 1;
+$userMail = 0;
 
 // Bccで送るメールアドレス(複数指定する場合は「,」で区切ってください 例 $BccMail = "aa@aa.aa,bb@bb.bb";)
 $BccMail = "";
