@@ -588,6 +588,26 @@ table,h5{
 }
 
 
+/*  夏季休業お知らせ  */
+
+.summer-vacation-info{
+  background-color: #f5f5f5;
+}
+
+.summer-vacation-info h1{
+  color: darkred;
+}
+
+.summer-vacation-info p{
+  color: dimgray;
+}
+
+.smv-top{
+  background-color: steelblue;
+}
+.smv-top p{
+  color: ivory;
+}
 
 /*  予約お知らせ  */
 
