@@ -262,8 +262,16 @@ h2{
   padding: 15px;
 }
 
- .bg-grey{
+.top-point h2{
+  color: steelblue;
+}
+
+.bg-grey{
   background-color: #f5f5f5;
+}
+
+.mt-30{
+  color: steelblue;
 }
 
 /*  Lawyer-Img section  */
