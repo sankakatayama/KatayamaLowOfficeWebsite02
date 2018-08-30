@@ -273,6 +273,9 @@ h2{
 .mt-30{
   color: steelblue;
 }
+.text-darkred{
+  color: darkred;
+}
 
 /*  Lawyer-Img section  */
 
@@ -581,6 +584,28 @@ table,h5{
 .trafficaccident-check .glyphicon-check{
   color: dodgerblue;
 }
+
+.trafficaccident-hanrei{
+  padding: 20px;
+}
+
+.text-steelblue{
+  color: steelblue;
+}
+
+.text-dimgray{
+  color: dimgray;
+}
+
+.text-orangered{
+  color: orangered;
+}
+
+.pagenation-trafficaccident{
+  margin-top: 20px;
+}
+
+
 
 
 /*  Child Custody  */
