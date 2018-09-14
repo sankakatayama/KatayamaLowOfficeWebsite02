@@ -18,24 +18,42 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="../resources/style.css" type="text/css">
 
-<!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PPBQXBL');</script>
-<!-- End Google Tag Manager -->
 
 
+
+    <!-- Global site tag (gtag.js) - Google Ads: 966568365 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-966568365"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-966568365');
+    </script>
+
+
+
+
+    <!-- Event snippet for スマホからの電話計測 conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-966568365/UY38CLiosoYBEK3T8swD',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
 
 
   </head>
   <body>
-
-<!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPBQXBL"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 
 <!-- Headder Section  -->
@@ -79,7 +97,7 @@
 <!-- 予約電話　お知らせ  -->
 
       <div class="container-fluid test-info">
-        <p class="text-center">初回無料法律相談のご予約は<span class="glyphicon glyphicon-earphone"><a href="tel:05031886226"><strong>050-3188-6226</strong></a></span>まで</p>
+        <p class="text-center">初回無料法律相談のご予約は<span class="glyphicon glyphicon-earphone"><a onclick="return gtag_report_conversion('tel:05031886226');"  href="tel:05031886226"><strong>050-3188-6226</strong></a></span>まで</p>
       </div>
 
 
@@ -176,7 +194,7 @@
             <strong>弁護士　片山栄範</strong><br>
             静岡県弁護士会所属　登録番号４０４５９<br>
             〒422-8067　静岡市駿河区南町１３−３ ＴＫビル４階<br>
-            <abbr title="Phone">電話</abbr> <a href="tel:05031880970"> 050-3188-0970 </a><br>
+            <abbr title="Phone">電話</abbr> <a onclick="return gtag_report_conversion('tel:05031880970');"  href="tel:05031880970"> 050-3188-0970 </a><br>
             <a href="mailto:info@katayama-law.jp">info@katayama-law.jp</a>
           </address>
         </div>

@@ -1,202 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
+
 <url>
-  <loc>http://katayama-law.jp/</loc>
-  <priority>1.0</priority>
+  <loc>https://katayama-law.jp/index.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/index.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/about.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/about.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/consultation.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/consultation.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/map.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/map.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/reviews/reviews01.html</loc>
+  <lastmod>2018-09-14T08:26:31+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/reviews/reviews01.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/services.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/services.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/fee.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/fee.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/privacy-policy.html</loc>
+  <lastmod>2018-09-14T08:26:28+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/privacy-policy.html</loc>
-  <priority>0.8</priority>
+  <loc>https://katayama-law.jp/childcustody/childcustody-performance.html</loc>
+  <lastmod>2018-09-14T08:26:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/childcustody/childcustody-performance.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/reviews/reviews02.html</loc>
+  <lastmod>2018-09-14T08:26:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/reviews/reviews02.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/reviews/reviews03.html</loc>
+  <lastmod>2018-09-14T08:26:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/reviews/reviews03.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/reviews/reviews04.html</loc>
+  <lastmod>2018-09-14T08:26:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/reviews/reviews04.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/reviews/reviews05.html</loc>
+  <lastmod>2018-09-14T08:26:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/reviews/reviews05.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/reviews/reviews06.html</loc>
+  <lastmod>2018-09-14T08:26:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/reviews/reviews06.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/reviews/reviews07.html</loc>
+  <lastmod>2018-09-14T08:26:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/reviews/reviews07.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/divorce/divorce-top.html</loc>
+  <lastmod>2018-09-14T08:26:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/divorce-top.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/childcustody/childcustody.html</loc>
+  <lastmod>2018-09-14T08:26:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/childcustody/childcustody.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/affair.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/affair.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/trafficaccident/trafficaccident00.html</loc>
+  <lastmod>2018-09-14T08:38:14+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/trafficaccident00.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/labor/labor00.html</loc>
+  <lastmod>2018-09-14T08:26:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/labor/labor00.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/inheritance00.html</loc>
+  <lastmod>2018-09-14T08:26:28+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/inheritance00.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/bankruptcy/bankruptcy00.html</loc>
+  <lastmod>2018-09-14T08:26:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/bankruptcy/bankruptcy00.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/architecture.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/architecture.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/komon/komon00.html</loc>
+  <lastmod>2018-09-14T08:26:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/komon/komon00.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/tateake.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/tateake.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/apartment.html</loc>
+  <lastmod>2018-09-14T08:26:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/apartment.html</loc>
-  <priority>0.7</priority>
+  <loc>https://katayama-law.jp/divorce/tyotei/divorce-tyotei.html</loc>
+  <lastmod>2018-09-14T08:26:33+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/tyotei/divorce-tyotei.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/divorce/menko/divorce-menko.html</loc>
+  <lastmod>2018-09-14T08:26:33+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/menko/divorce-menko.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/divorce/konpi/divorce-konpi.html</loc>
+  <lastmod>2018-09-14T08:26:33+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/konpi/divorce-konpi.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/divorce/zaisanbunyo/divorce-zaisanbunyo.html</loc>
+  <lastmod>2018-09-14T08:26:33+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/zaisanbunyo/divorce-zaisanbunyo.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/divorce/divorce-performance.html</loc>
+  <lastmod>2018-09-14T08:26:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/divorce-performance.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/childcustody/father-tyotei.html</loc>
+  <lastmod>2018-09-14T08:26:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/childcustody/father-tyotei.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/trafficaccident/trafficaccident-performance.html</loc>
+  <lastmod>2018-09-14T08:38:14+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/trafficaccident-bentoku.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/trafficaccident/trafficaccident-bentoku.html</loc>
+  <lastmod>2018-09-14T08:38:14+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/trafficaccident-jibaiseki.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/trafficaccident/trafficaccident-jibaiseki.html</loc>
+  <lastmod>2018-09-14T08:38:14+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/trafficaccident-chokugo.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/trafficaccident/trafficaccident-chokugo.html</loc>
+  <lastmod>2018-09-14T08:38:14+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/hanrei/hanrei01.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/trafficaccident/hanrei/hanrei01.html</loc>
+  <lastmod>2018-09-14T08:38:15+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/labor/labor-shoko.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/labor/labor-shoko.html</loc>
+  <lastmod>2018-09-14T08:26:31+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/bankruptcy/bankruptcy-performance.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/bankruptcy/bankruptcy-performance.html</loc>
+  <lastmod>2018-09-14T08:26:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/komon-comp-only.html</loc>
-  <priority>0.6</priority>
+  <loc>https://katayama-law.jp/komon-comp-only.html</loc>
+  <lastmod>2018-09-14T08:26:28+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/menko/divorce-menko-violent.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/divorce/menko/divorce-menko-violent.html</loc>
+  <lastmod>2018-09-14T08:26:33+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/konpi/consultation.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/divorce/zaisanbunyo/divorce-zaisanbunyo-overloan.html</loc>
+  <lastmod>2018-09-14T08:26:33+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/divorce/zaisanbunyo/divorce-zaisanbunyo-overloan.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/trafficaccident/hanrei/hanrei02.html</loc>
+  <lastmod>2018-09-14T08:38:15+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/hanrei/hanrei02.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/trafficaccident/hanrei/hanrei03.html</loc>
+  <lastmod>2018-09-14T08:38:14+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/hanrei/hanrei03.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/trafficaccident/hanrei/hanrei04.html</loc>
+  <lastmod>2018-09-14T08:38:15+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/hanrei/hanrei04.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/trafficaccident/hanrei/hanrei05.html</loc>
+  <lastmod>2018-09-14T08:38:15+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/hanrei/hanrei05.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/trafficaccident/hanrei/hanrei06.html</loc>
+  <lastmod>2018-09-14T08:38:15+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-  <loc>http://katayama-law.jp/trafficaccident/hanrei/hanrei06.html</loc>
-  <priority>0.5</priority>
+  <loc>https://katayama-law.jp/trafficaccident/hanrei/hanrei07.html</loc>
+  <lastmod>2018-09-14T08:38:15+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
-<url>
-  <loc>http://katayama-law.jp/divorce/divorce-menko.html</loc>
-  <priority>0.5</priority>
-</url>
+
 
 </urlset>

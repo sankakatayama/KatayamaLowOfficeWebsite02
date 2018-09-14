@@ -19,23 +19,42 @@
     <link rel="stylesheet" href="resources/style.css" type="text/css">
 
 
-<!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-PPBQXBL');</script>
-<!-- End Google Tag Manager -->
+
+
+    <!-- Global site tag (gtag.js) - Google Ads: 966568365 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-966568365"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-966568365');
+    </script>
+
+
+
+    <!-- Event snippet for スマホからの電話計測 conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-966568365/UY38CLiosoYBEK3T8swD',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
 
 
 
   </head>
   <body>
-
-<!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPBQXBL"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 
 <!-- Headder Section  -->
@@ -105,7 +124,7 @@
           <div class="panel-body">
             <p>片山ひでのり法律事務所の顧問先企業の従業員の方で、セクハラ・パワハラなどにお悩みの方は、下記の専用電話番号で、ご相談をお受けしております。</p>
             <p>当事務所は守秘義務を負っておりますので、ご相談内容が他に漏れることはありません。お気軽にご相談下さい。</p>
-            <p><strong>コンプライアンス専用電話番号：<a href="tel:05031881342">　０５０−３１８８−１３４２</a>　</strong></p>
+            <p><strong>コンプライアンス専用電話番号：<a onclick="return gtag_report_conversion('tel:05031881342');" href="tel:05031881342">　０５０−３１８８−１３４２</a>　</strong></p>
             <p><strong>受付時間</strong></p>
             <p>平日：午前１０：００から午後７：００</p>
             <p>土曜日（隔週）：午前１０：００から午後６：００</p>
@@ -165,7 +184,7 @@
             <strong>弁護士　片山栄範</strong><br>
             静岡県弁護士会所属　登録番号４０４５９<br>
             〒422-8067　静岡市駿河区南町１３−３ ＴＫビル４階<br>
-            <abbr title="Phone">電話</abbr> <a href="tel:05031880970"> 050-3188-0970 </a><br>
+            <abbr title="Phone">電話</abbr> <a onclick="return gtag_report_conversion('tel:05031880970');"  href="tel:05031880970"> 050-3188-0970 </a><br>
             <a href="mailto:info@katayama-law.jp">info@katayama-law.jp</a>
           </address>
         </div>
