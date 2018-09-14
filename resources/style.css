@@ -494,6 +494,11 @@ table,h5{
   margin-bottom: 20px;
 }
 
+.underbar-rikon{
+  border-bottom: solid;
+  border-width: thin;
+  border-color: grey;
+}
 
 /*  List  */
 
