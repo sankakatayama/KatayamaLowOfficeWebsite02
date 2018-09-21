@@ -469,10 +469,11 @@ table,h5{
 
 /*  Divorce  */
 
-.text-rikon a{
+
+.text-rikon small{
   color: darkred;
 }
-.text-rikon small{
+.text-rikon h1{
   color: darkred;
 }
 
@@ -482,11 +483,8 @@ table,h5{
 
 
 .jumbotron-rikon{
-  background-color: darkred;
-  color: white;
-}
-.jumbotron-rikon h1{
-  margin-bottom: 20px;
+  background-color: white;
+  margin-bottom: 0px;
 }
 
 .page-header-rikon h1{
@@ -498,6 +496,16 @@ table,h5{
   border-bottom: solid;
   border-width: thin;
   border-color: grey;
+}
+
+.bc-whitesmoke{
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+#rikon-001,#rikon-002,#rikon-003,#rikon-004,#rikon-005,#rikon-006{
+   margin-top:-120px;
+  padding-top:120px;
 }
 
 /*  List  */
