@@ -297,6 +297,11 @@ h2{
   display: flex;
   justify-content: center;
 }
+.kameko-photo{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
 
 .kameko-green{
   background-color: olive;
@@ -465,6 +470,11 @@ table,h5{
 }
 .reservation-tel{
   margin-bottom: 30px;
+}
+
+/*  Office  */
+.office-picture img{
+  padding-top: 10px;
 }
 
 /*  Divorce  */
