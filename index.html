@@ -53,7 +53,7 @@
 <!--  Google検索結果のサムネイル指定  -->
   <PageMap>
     <DataObject type="thumbnail">
-      <Attribute name="src" value="https://katayama-law.jp/resources/images/hidenori_cut_stripetie_transparent2.png"/>
+      <Attribute name="src" value="https://katayama-law.jp/resources/images/hidenori_cut_stripetie_grey.png"/>
       <Attribute name="width" value="100"/>
       <Attribute name="height" value="130"/>
     </DataObject>
@@ -101,74 +101,91 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
            <a class="navbar-brand" href="#">片山ひでのり法律事務所
            </a>
         </div>
-        <div id="navbar" class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">HOME</a></li>
+            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></a></li>
             <li><a href="about.html">弁護士</a></li>
             <li><a href="consultation.html">無料法律相談</a></li>
-            <li><a href="map.html">地　図</a></li>
+            <li><a href="map.html">地図</a></li>
             <li><a href="office.html">事務所</a></li>
             <li><a href="reviews/reviews01.html">お客様の声</a></li>
-
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">その他<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="services.html">取扱業務</a></li>
-                <li><a href="fee.html">料金表</a></li>
-
-              </ul>
-            </li>
+            <li><a href="services.html">取扱業務</a></li>
+            <li><a href="fee.html">料金表</a></li>
           </ul>
         </div>
-<!--/.nav-collapse -->
       </div>
     </nav>
 
 
 
+
+
+
     <!-- Begin page content -->
-    <div class="jumbotron">
-      <p class="text-center point3"><strong>相談実積９６０件以上</strong></p>
-      <p class="point1 text-center"><strong>静岡駅から徒歩２分</strong></p>
-      <p class="text-center"><strong>平日は<span class="text-darkred text-center">午後７時</span>まで・<span class="text-darkred text-center">土曜日</span>は隔週で営業中</strong></p>
-      <p class="text-center"><strong>初回の法律相談は<span class="point1">１時間無料</span>です。</strong></p>
-      <p class="text-center text-darkred"><strong>ご相談はすべて代表弁護士が伺います。</strong></p>
-      <p class="text-center"><a class="btn btn-primary btn-lg" href="consultation.html" role="button">無料法律相談について詳しく</a></p>
+    <div class="jumbotron bg-overlay">
+      <div class="overlay">
+        <h1 class="text-center">片山ひでのり法律事務所</h1>
+        <p class="text-center" id="jumbotron-p">相談実績９８０件以上</p>
+        <p class="text-center" id="jumbotron-p2">初回の法律相談（面談）は１時間無料</p>
+        <p class="text-center" id="jumbotron-p2">静岡駅から徒歩２分</p>
+        <p class="text-center" id="jumbotron-p2">平日は午後７時まで。土曜日も営業中</p>
+        <p class="text-center"><a class="btn btn-primary btn-lg" href="consultation.html" role="button">無料法律相談について詳しく</a></p>
+      </div>
     </div>
 
+<!--  Thumbnail  -->
+  <div class="section-padding">
     <div class="container">
-      <img src="resources/images/hidenori_cut_stripetie_transparent2.png" class="img-responsive center-block" alt="代表弁護士　片山栄範">
-      <h1 class="text-center mt-30"><strong>代表弁護士　片山　栄範</strong></h1>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="thumbnail shadow">
+              <img src="resources/images/hidenori_cut_stripetie_grey.png" alt="代表弁護士　片山栄範">
+            </div>
+          </div>
+          <div class="col-sm-8">
+              <div class="caption">
+                <h3 class=""><strong>代表弁護士　片 山 栄 範</strong></h3>
+                <p>離婚・子の引き渡し・相続などの家事事件を中心に幅広い案件を扱っている。一方で、商学部を卒業後に金融機関へ勤務した経験から培った経営感覚を生かして、顧問先の経営に関する相談や、法人の事業者の破産案件も多く扱う。法律相談件数１０００件を目指して日々邁進中。主な実績に、父親の親権に関する勝訴判決がある。また、静岡県住宅紛争審査会処理委員など行政機関の委員に就任している。</p>
+                <p class="text-right"><a href="about.html">詳しくはこちら　＞</a></p>
+              </div>
+
+          </div>
+        </div>
     </div>
+  </div>
+<!--  End Thumbnail  -->
+
+<!--  Test  隠す　栄範photo  -->
     <div class="container">
       <div class="">
         <p>【ご相談にいらしたお客様の声より抜粋】</p>
         <p>こんなにも話を聞いてくれる先生は初めてでした。法律的な話をしてくれても感情の話をしてくれる弁護士は今までいませんでした。即決で先生にお願いしました。ご相談に乗っていただきありがとうございました。　４０代　男性</p>
-        <p><a href="reviews/reviews01.html">そのほかのお客様の声はこちら　＞</a></p>
+        <p class="text-right"><a href="reviews/reviews01.html">そのほかのお客様の声はこちら　＞</a></p>
       </div>
    </div>
 
+
 <!--  セールスポイント  -->
-  <div class="container-fluid top-point bg-grey">
-    <h2 class="text-center"><strong>上質なリーガルサービスを提供いたします。</strong></h2>
+  <div class="container-fluid bg-grey">
+    <h2 class="text-center text-green"><strong>上質なリーガルサービスを提供いたします。</strong></h2>
     <p class="text-center">例えば、弁護士による初回無料の法律相談は、有料の法律相談と質的に全く変わりありません。</p>
     <p class="text-center">実際にご相談に来られたほとんどのお客様に、大変ご満足いただいております。</p>
     <p class="text-center"><a href="reviews/reviews01.html">ご相談に来られたお客様の声はこちら ＞</a></p>
   </div>
-  <div class="container-fluid top-point">
-    <h2 class="text-center"><strong>静岡駅（南口）から徒歩２分。</strong></h2>
+  <div class="container-fluid">
+    <h2 class="text-center text-green"><strong>静岡駅（南口）から徒歩２分。</strong></h2>
     <p class="text-center">片山ひでのり法律事務所は、静岡駅南口から徒歩２分の場所にあります。</p>
     <p class="text-center">お車でも、電車でもアクセスしやすい立地にあります。</p>
     <p class="text-center"><a href="map.html">地図はこちら ＞</a></p>
   </div>
-  <div class="container-fluid top-point bg-grey">
-    <h2 class="text-center"><strong>土曜日も営業しています。</strong></h2>
+  <div class="container-fluid bg-grey">
+    <h2 class="text-center text-green"><strong>土曜日も営業しています。</strong></h2>
     <p class="text-center">平日には弁護士事務所に足を運ぶことが難しい方も多いことから、片山ひでのり法律事務所では土曜日も営業しています（隔週）。</p>
     <p class="text-center">土曜日をご希望の方は、電話予約の際にお問い合わせ下さい。</p>
     <p class="text-center">なお平日は10時から19時まで営業しています。</p>
   </div>
-  <div class="container-fluid top-point">
-      <h2 class="text-center"><strong>静岡の地元に根ざした地道な弁護士事務所です。</strong></h2>
+  <div class="container-fluid">
+      <h2 class="text-center text-green"><strong>静岡の地元に根ざした地道な弁護士事務所です。</strong></h2>
       <p class="text-center">弁護士片山ひでのりは静岡県藤枝市出身です。</p>
       <p class="text-center">慶応大学を卒業し大手金融機関に勤務した後中央大学ロースクールに入学。</p>
       <p class="text-center">卒業後、弁護士となり、当初は横浜の法律事務所に勤務。</p>

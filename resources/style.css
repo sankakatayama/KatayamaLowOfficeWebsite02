@@ -203,9 +203,6 @@ body > .container {
 
 /*  TextのStyle  */
 
-.mt-30{
-  margin-top: 30px;
-}
 
 h2{
   margin-bottom: 30px;
@@ -227,10 +224,6 @@ h2{
 
 
 /*  Headder Section  */
-.navbar{
-
-
-}
 
 .navbar-inverse .navbar-brand{
   font-weight: bolder;
@@ -258,13 +251,25 @@ h2{
 
 /*  Top Page  */
 
-.top-point{
-  padding: 15px;
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../resources/images/room01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
 }
 
-.top-point h2{
-  color: steelblue;
+#jumbotron-p{
+  margin-top:20px;
+  margin-bottom: 0px;
 }
+#jumbotron-p2{
+  margin:2px;
+
+}
+
 
 .bg-grey{
   background-color: #f5f5f5;
@@ -272,12 +277,18 @@ h2{
   padding-bottom: 20px;
 }
 
-.mt-30{
-  color: steelblue;
-}
+
 .text-darkred{
   color: darkred;
 }
+
+/*
+.hidenori-photo-thumbnail{
+  display: flex;
+  justify-content: center;
+}
+/*
+
 
 /*  Lawyer-Img section  */
 
@@ -285,10 +296,20 @@ h2{
   background-color: green;
 }
 
+.shadow {
+  max-width: 400px;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+
 /*  About Page  */
 
 .name h1{
   margin-bottom: 23px;
+}
+
+.section-padding {
+  padding: 60px 0 0 0;
 }
 
 .color-olive{
