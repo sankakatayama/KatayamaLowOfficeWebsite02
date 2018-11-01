@@ -232,6 +232,15 @@ h2{
 
 /*  Jumbotron Section  */
 
+.info-closure{
+  background-color: darkkhaki;
+}
+.text-info-closure{
+  color: ivory;
+}
+.text-info-closure-dark{
+  color: #4e4949;
+}
 
 .jumbotron .point1{
   color: #2e6da4;
