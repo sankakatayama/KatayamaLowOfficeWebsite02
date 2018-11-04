@@ -508,7 +508,14 @@ table,h5{
 
 /*  Divorce  */
 
+.body-devorce{
+  padding-top: 100px;
+}
 
+
+.navbar-devorce{
+  margin-top: 50px;
+}
 .text-rikon small{
   color: darkred;
 }
