@@ -1,6 +1,6 @@
 /*  Universal style  */
 body {
-
+margin-top: 50px;
 }
 
 p{
@@ -511,7 +511,7 @@ table,h5{
 
 
 .navbar-devorce{
-  margin-top: 50px;
+  margin-bottom: 0px;
 }
 .text-rikon small{
   color: darkred;
