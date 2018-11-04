@@ -513,12 +513,10 @@ table,h5{
 .navbar-devorce{
   margin-bottom: 0px;
 }
-.text-rikon small{
+.text-rikon{
   color: darkred;
 }
-.text-rikon h1{
-  color: darkred;
-}
+
 
 .bg-linen{
   background-color: linen;
