@@ -259,6 +259,19 @@ h2{
 
 /*  Top Page  */
 
+.recruite{
+  background-color: midnightblue;
+  padding: 15px;
+}
+.recruite h3{
+  margin: 10px;
+}
+.jumbotron{
+  margin-bottom: 0px;
+}
+
+
+
 .bg-overlay {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../resources/images/room01.png");
     background-repeat: no-repeat;
@@ -426,9 +439,7 @@ h2{
 td{
   font-size: 16px;
 }
-table,h3{
-  margin-top: 30px;
-}
+
 table,h4{
   font-size: 20px;
 }
