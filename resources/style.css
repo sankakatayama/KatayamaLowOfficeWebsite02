@@ -426,6 +426,13 @@ h2{
 .text-green{
   color: olive;
 }
+.text-white{
+  color: white;
+}
+
+.text-orange{
+  color: orange;
+}
 
 /*  Form  */
 
@@ -586,13 +593,6 @@ table,h5{
   background-color: olive;
   color: white;
 }
-.jumbotron-shinken a{
-  color: white;
-}
-.page-header-shinken h1{
-  color: olive;
-}
-
 
 /*  相続  */
 
