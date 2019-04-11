@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{http_host} ^site0000/index.html
+RewriteRule ^(.*) https://katayama-law.jp/index.html/$1 [R=301,L]
