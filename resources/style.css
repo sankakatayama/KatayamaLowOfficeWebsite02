@@ -270,6 +270,10 @@ h2{
 .bg-red{
   background-color: #dc3545;
 }
+.text-white-anchor a{
+  text-decoration: none;
+  color: white;
+}
 .jumbotron{
   margin-bottom: 0px;
 }
