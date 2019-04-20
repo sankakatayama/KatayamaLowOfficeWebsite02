@@ -261,10 +261,14 @@ h2{
 
 .recruite{
   background-color: midnightblue;
-  padding: 15px;
+  padding: 20px;
 }
 .recruite h3{
   margin: 10px;
+}
+
+.bg-red{
+  background-color: #dc3545;
 }
 .jumbotron{
   margin-bottom: 0px;
@@ -714,7 +718,9 @@ table,h5{
 
 .test-info{
   background-color: steelblue;
+/*  Test  */
   padding-top: 20px;
+/*  Test  */
   color: darkred;
 }
 .test-info a{
