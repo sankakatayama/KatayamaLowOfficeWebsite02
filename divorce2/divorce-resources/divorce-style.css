@@ -293,19 +293,21 @@ textarea {
 }
 
 /*  ここから賛歌が入れた  */
+body{
+  margin-bottom: 84px;
+}
+
 p{
   font-size: 1.25rem;
 }
-li{
-  font-size: 1.25rem;
-}
+
 
 a{
   color: #0062cc;
 }
 
 .jumbotron-divorce2{
-  background-image: url(../../divorce2/divorce-resources/images/0.75x/AdobeStock_244877700-75.jpg);
+  background-image: url(../../divorce2/divorce-resources/images/AdobeStock_244877700-75.jpg);
   margin-bottom: 0;
 }
 
@@ -343,4 +345,7 @@ a{
 
  .bg-yellow{
    background-color: #d39e00;
+ }
+ .bg-teal{
+   background-color: teal;
  }
