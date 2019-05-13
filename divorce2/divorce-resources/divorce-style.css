@@ -296,6 +296,13 @@ textarea {
 p{
   font-size: 1.25rem;
 }
+li{
+  font-size: 1.25rem;
+}
+
+a{
+  color: #0062cc;
+}
 
 .jumbotron-divorce2{
   background-image: url(../../divorce2/divorce-resources/images/0.75x/AdobeStock_244877700-75.jpg);
@@ -332,4 +339,8 @@ p{
 
  .bg-tomato{
    background-color: #dc3545;
+ }
+
+ .bg-yellow{
+   background-color: #d39e00;
  }
