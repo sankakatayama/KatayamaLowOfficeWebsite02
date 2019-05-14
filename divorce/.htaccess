@@ -1,1 +1,13 @@
 Redirect permanent /divorce/divorce-top.html https://katayama-law.jp/divorce2/divorce2.html
+
+Redirect permanent /divorce/menko/divorce-menko.html https://katayama-law.jp/divorce2/divorce2.html
+
+Redirect permanent /divorce/konpi/divorce-konpi.html https://katayama-law.jp/divorce2/divorce2.html
+
+Redirect permanent /divorce/tyotei/divorce-tyotei.html https://katayama-law.jp/divorce2/divorce2.html
+
+Redirect permanent /divorce/zaisanbunyo/divorce-zaisanbunyo-overloan.html https://katayama-law.jp/divorce2/divorce2.html
+
+Redirect permanent /divorce/zaisanbunyo/divorce-zaisanbunyo.html https://katayama-law.jp/divorce2/divorce2.html
+
+Redirect permanent /divorce/jukunen-rikon.html https://katayama-law.jp/divorce2/divorce2.html
