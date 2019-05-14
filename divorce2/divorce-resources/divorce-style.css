@@ -306,6 +306,19 @@ a{
   color: #0062cc;
 }
 
+a:hover{
+  color: teal;
+}
+
+.btn-primary:hover{
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.navbar-light .navbar-brand:hover{
+  color: #17a2b8;
+}
+
 .jumbotron-divorce2{
   background-image: url(../../divorce2/divorce-resources/images/AdobeStock_244877700-75.jpg);
   margin-bottom: 0;
