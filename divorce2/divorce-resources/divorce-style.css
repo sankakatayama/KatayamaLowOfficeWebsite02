@@ -308,7 +308,9 @@ a{
 
 a:hover{
   color: teal;
+  text-decoration: none;
 }
+
 
 .btn-primary:hover{
   background-color: #17a2b8;
@@ -361,4 +363,8 @@ a:hover{
  }
  .bg-teal{
    background-color: teal;
+ }
+
+ .bg-teal2{
+   background-color: #17a2b8;
  }
