@@ -134,7 +134,7 @@ $mailSignature = <<< FOOTER
 片山ひでのり法律事務所
 〒422-8067静岡市駿河区南町１３−３
 TKビル　４階
-TEL 050-3188-6226  FAX 050-3488-7295
+TEL 054-202-4520  FAX 050-3488-7295
 info@katayama-law.jp
 http://www.katayama-law.jp
 ・・・・・・・・・・・・・・・・・・
