@@ -1,7 +1,33 @@
+p{
+  font-size: 1.25rem;
+}
+
 .jumbotron{
-  background-image: url(../../childcustody2/childcustody-resources/images/AdobeStock_119331558_Preview.png);
+  background-image: url(../../childcustody2/childcustody-resources/images/AdobeStock_191372070.jpg);
 }
 
 hr{
   border-color: white;
+}
+
+.text-darkred{
+  color: darkred;
+}
+
+.bg-darkred{
+  background-color: darkred;
+}
+.bg-grey{
+  background-color: #e9ecef;
+}
+.bg-grey2{
+  background-color: #e9ecef;
+}
+
+.btn-primary{
+  background-color: #066E83;
+  border-color: #066E83;
+}
+a{
+  color: #066E83;
 }
