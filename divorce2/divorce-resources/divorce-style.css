@@ -321,6 +321,10 @@ a:hover{
   color: #17a2b8;
 }
 
+.bg-hidenori{
+  background-image: url(../../divorce2/divorce-resources/images/AdobeStock_82244724_Preview.png);
+}
+
 .jumbotron-divorce2{
   background-image: url(../../divorce2/divorce-resources/images/AdobeStock_244877700-75.jpg);
   margin-bottom: 0;
@@ -353,13 +357,16 @@ a:hover{
   background-color: #e9ecef;
 }
 
+.text-grey{
+  color: #545b62;
+}
 
  .bg-tomato{
    background-color: #dc3545;
  }
 
  .bg-yellow{
-   background-color: #d39e00;
+   background-color: #ffc107;
  }
  .bg-teal{
    background-color: teal;
