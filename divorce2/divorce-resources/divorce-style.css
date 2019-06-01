@@ -297,9 +297,11 @@ body{
   margin-bottom: 84px;
 }
 
+
 p{
   font-size: 1.25rem;
 }
+
 
 
 a{
@@ -322,7 +324,7 @@ a:hover{
 }
 
 .bg-hidenori{
-  background-image: url(../../divorce2/divorce-resources/images/AdobeStock_82244724_Preview.png);
+  background-image: url(../../divorce2/divorce-resources/images/AdobeStock_82244724.jpg);
 }
 
 .jumbotron-divorce2{
@@ -360,6 +362,10 @@ a:hover{
 .text-grey{
   color: #545b62;
 }
+.text-yellow{
+  color: #ffc107;
+}
+
 
  .bg-tomato{
    background-color: #dc3545;
