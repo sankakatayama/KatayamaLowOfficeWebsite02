@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="../divorce2/divorce-resources/normalize.css" type="text/css">
 
     <!--  Fontawesome  -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1bd19aea34.js"></script>
     <!--  End Fontawesome  -->
 
     <!-- Google 構造化データ マークアップ支援ツールが生成した JSON-LD マークアップです。 -->
@@ -212,8 +212,36 @@
         </div>
 <!--  END 3つのポイント  -->
 
+    <!--  お問い合わせアイコン  -->
+    <!--  Flexbox  -->
+    <div class="container">
+      <div class="d-md-flex p-2  justify-content-center">
+          <div class="p-2 mx-2 my-5 w-100 mx-auto text-center" style="background-color : #dc3545;">
+            <a onclick="return gtag_report_conversion('tel:0542024520');" href="tel:0542024520">
+              <span style="font-size: 3em; color: #ffc107;">
+                <i class="fas fa-phone-square"></i>
+              </span>
+              <p class="font-weight-bold text-white">電話で予約</p>
+            </a>
+          </div>
+          <div class="p-2 mx-2 my-5 w-100 mx-auto text-center" style="background-color : coral;">
+            <a href="#divorce2-form">
+              <span style="font-size: 3em; color: #117a8b;">
+                <i class="fab fa-wpforms"></i>
+              </span>
+              <p class="font-weight-bold text-white">フォームで予約</p>
+            </a>
+          </div>
+      </div>
+    </div>
+    <!--  END Flexbox  -->
+
+    <!--  END お問い合わせアイコン  -->
+
+
+
       <!--  離婚のお客様の声  -->
-        <div class="container bg-teal mt-5 py-2">
+        <div class="container bg-teal mt-3 py-2">
           <div class="container bg-teal text-white">
             <h1 class="h4 py-2 text-center font-weight-bold">離婚相談のお客様の声</h1>
           </div>
@@ -297,7 +325,7 @@
 
     <!--  Form  -->
     <div class="mt-3">
-      <div class="container bg-teal2 text-white p-3 mb-4" id="">
+      <div class="container bg-teal2 text-white p-3 mb-4" id="divorce2-form">
         <div class="bg-teal">
           <h1 class="p-3 mt-0">ご予約フォーム</h1>
         </div>
@@ -335,8 +363,47 @@
     <!-- End Form  -->
 
 
+    <!--  離婚の実績  -->
+    <div class="container-fluid mt-4 pt-4">
+      <div class="container">
+        <div class="">
+          <h2 class="font-weight-bold text-tomato">離婚の解決事例</h2>
+        </div>
+        <div class="row">
+          <div class="col-md p-2">
+            <div class="bg-teal text-white p-2">
+              <h3 class="h4 mb-0">離婚の解決事例　No.001</h3>
+            </div>
+            <div class="mx-2">
+              <p class="pt-2 pr-2 pl-2">解決金300万円と10万円の養育費など依頼者にとって有利な条件で和解できた事案</p>
+              <p class="m-0 pr-2 pl-2 pb-2"><a href="../divorce/divorce-performance.html#rikon-001">詳しくはこちら　＞</a></p>
+            </div>
+          </div>
+          <div class="col-md p-1">
+            <div class="bg-teal text-white p-2">
+              <h3 class="h4 mb-0">離婚の解決事例　No.002</h3>
+            </div>
+            <div class="mx-2">
+              <p class="pt-2 pr-2 pl-2">財産分与が見込めない状況の中、3,000万円を超える解決金を得て依頼者の離婚後の生活の目処をつけることができた事案</p>
+              <p class="m-0 pr-2 pl-2 pb-2"><a href="../divorce/divorce-performance.html#rikon-002">詳しくはこちら　＞</a></p>
+            </div>
+          </div>
+          <div class="col-md p-1">
+            <div class="bg-teal text-white p-2">
+              <h3 class="h4 mb-0">離婚の解決事例　No.003</h3>
+            </div>
+            <div class="mx-2">
+              <p class="pt-2 pr-2 pl-2">浮気した夫が出て行った後にオーバーローンの自宅が残ったが、依頼者の持分から500万円を回収でき、夫から解決金300万円を得ることができた事案</p>
+              <p class="m-0 pr-2 pl-2 pb-2"><a href="../divorce/divorce-performance.html#rikon-003">詳しくはこちら　＞</a></p>
+            </div>
+          </div>
 
-    <!--  弁護士からのメッセージ  --
+        </div>
+      </div>
+    </div>
+    <!--  End 離婚の実績  -->
+
+    <!--  弁護士からのメッセージ  -->
     <div class="container-fluid bg-grey">
       <div class="container pt-4 pb-4">
         <h2 class="font-weight-bold text-tomato">他の弁護士に、離婚相談してから来てください。</h2>
@@ -356,45 +423,7 @@
     </div>
     <!--  End 弁護士からのメッセージ  -->
 
-    <!--  離婚の実績  -->
-    <div class="container-fluid mt-4 pt-4">
-      <div class="container">
-        <div class="">
-          <h2 class="font-weight-bold text-tomato">離婚の解決事例</h2>
-        </div>
-        <div class="row">
-          <div class="col-md p-1">
-            <div class="bg-yellow text-white p-2">
-              <h3 class="h4 mb-0">離婚の解決事例　No.001</h3>
-            </div>
-            <div class="bg-grey3">
-              <p class="pt-2 pr-2 pl-2">解決金300万円と10万円の養育費など依頼者にとって有利な条件で和解できた事案</p>
-              <p class="m-0 pr-2 pl-2 pb-2"><a href="../divorce/divorce-performance.html#rikon-001">詳しくはこちら　＞</a></p>
-            </div>
-          </div>
-          <div class="col-md p-1">
-            <div class="bg-yellow text-white p-2">
-              <h3 class="h4 mb-0">離婚の解決事例　No.002</h3>
-            </div>
-            <div class="bg-grey3">
-              <p class="pt-2 pr-2 pl-2">財産分与が見込めない状況の中、3,000万円を超える解決金を得て依頼者の離婚後の生活の目処をつけることができた事案</p>
-              <p class="m-0 pr-2 pl-2 pb-2"><a href="../divorce/divorce-performance.html#rikon-002">詳しくはこちら　＞</a></p>
-            </div>
-          </div>
-          <div class="col-md p-1">
-            <div class="bg-yellow text-white p-2">
-              <h3 class="h4 mb-0">離婚の解決事例　No.003</h3>
-            </div>
-            <div class="bg-grey3">
-              <p class="pt-2 pr-2 pl-2">浮気した夫が出て行った後にオーバーローンの自宅が残ったが、依頼者の持分から500万円を回収でき、夫から解決金300万円を得ることができた事案</p>
-              <p class="m-0 pr-2 pl-2 pb-2"><a href="../divorce/divorce-performance.html#rikon-003">詳しくはこちら　＞</a></p>
-            </div>
-          </div>
 
-        </div>
-      </div>
-    </div>
-    <!--  End 離婚の実績  -->
 
     <!--  離婚調停  -->
     <div class="container-fluid bg-grey mt-1">
@@ -416,6 +445,7 @@
       </div>
     </div>
     <!--  End 離婚調停  -->
+    <!--  調査官調査  -->
     <div class="container-fluid bg-grey mt-1">
       <div class="container pt-4 pb-4">
         <h2 class="font-weight-bold text-tomato">面会交流調停での調査官調査</h2>
@@ -429,6 +459,8 @@
         <p>調停での調査官の調査は、調停での話し合いが決裂して、不調になり、審判（審判は、調停のような話し合いではなく、裁判の一種です。）に移った場合でも、審判に引き継がれ、裁判官の判断に大きな影響を与えます。この点からも、調査官調査に、心理的な余裕を持って臨むことが、とても大切になってきます。</p>
       </div>
     </div>
+    <!--  END 調査官調査  -->
+
     <!--  面会交流  -->
 
     <!--  END 面会交流  -->
@@ -515,13 +547,13 @@
 
     <!--  Form  -->
     <div class="">
-      <div class="container bg-teal2 text-white p-3 mb-4" id="">
+      <div class="container bg-teal2 text-white p-3 mb-4" id="divorce2-form2">
         <div class="bg-teal">
           <h1 class="p-3 mt-0">ご予約フォーム</h1>
         </div>
         <p>下記のフォームに入力の上、送信してください。こちらからご連絡差し上げます。</p>
         <p>２、３日経っても連絡がない場合は、恐れ入りますが、
-          <a href="tel:0542024520" style="color:white;">050-3188-6226</a>までお電話ください。
+          <a href="tel:0542024520" style="color:white;">054-202-4520</a>までお電話ください。
         </p>
         <form method="post" action="mail.php">
           <div class="form-group">
@@ -561,7 +593,6 @@
           <strong>弁護士　片山栄範</strong><br>
           静岡県弁護士会所属　登録番号４０４５９<br>
           〒422-8067　静岡市駿河区南町１３−３ ＴＫビル４階<br>
-          <abbr title="Phone">電話</abbr> <a onclick="return gtag_report_conversion('tel:0542024520');" href="tel:0542024520"> 054-202-4520 </a><br>
           <abbr title="Phone">電話</abbr> <a onclick="return gtag_report_conversion('tel:0542024520');" href="tel:0542024520"> 054-202-4520 </a><br>
           </span><a href="mailto:info@katayama-law.jp">info@katayama-law.jp</a>
         </address>
