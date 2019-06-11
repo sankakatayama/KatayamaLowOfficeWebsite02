@@ -1,0 +1,45 @@
+p{
+  font-size: 1.25rem;
+}
+
+.hidenori-photo{
+  background-image: url(../resorces/images/AdobeStock_189603333.jpg);
+}
+
+.bg-bluegreen{
+  background-color: #17a2b8;
+}
+.bg-darkgreen{
+  background-color: #0c5460;
+}
+
+
+.text-tomato{
+  color: #EE3510;
+}
+.text-yellow{
+  color: #ffc107;
+}
+
+.text-bluegreen{
+  color: #17a2b8;
+}
+.text-darkgreen{
+  color: #0c5460;
+}
+
+.navbar-light .navbar-brand{
+  color: #17a2b8;
+}
+
+.btn-primary{
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+.btn-primary:hover{
+  background-color: teal;
+  border-color: teal;
+}
+a:hover{
+  text-decoration: none;
+}
