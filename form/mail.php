@@ -67,7 +67,7 @@ $userMail = 1;
 $BccMail = "";
 
 // 管理者宛に送信されるメールのタイトル（件名）
-$subject = "TopPageご予約フォーム";
+$subject = "ご予約フォーム";
 
 // 送信確認画面の表示(する=1, しない=0)
 $confirmDsp = 1;

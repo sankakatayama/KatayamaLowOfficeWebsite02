@@ -169,37 +169,46 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 
   <!--  Form  -->
-
-
-  <div class="container-fluid kameko-green">
-    <div class="container">
-      <h2 class="under-line">ご予約フォーム</h2>
-      <form method="post" action="form/mail.php">
-        <div class="form-group">
-          <label for="exampleInputName1">お名前（フルネーム）</label>
-          <input name="お名前" type="text" class="form-control" id="exampleInputName1" placeholder="お名前（フルネーム）">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputName2">お名前（ふりがな）</label>
-          <input name="ふりがな" type="text" class="form-control" id="exampleInputName2" placeholder="ふりがな">
-        </div>
-        <div class="form-group">
-          <label>携帯電話番号</label>
-          <input name="携帯電話番号" type="text" class="form-control" placeholder="携帯電話番号">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputEmail1">メールアドレス</label>
-          <input name="メールアドレス" type="email" class="form-control" id="exampleInputEmail1" placeholder="メールアドレス">
-        </div>
-        <div class="form-group">
-          <label>簡単なご相談内容</label>
-          <textarea name="相談内容" class="form-control" rows="3" placeholder="簡単なご相談内容"></textarea>
-        </div>
-
-        <p class="text-center"><button type="submit" class="btn btn-default">送信する</button></p>
-      </form>
+  <div class="container kameko-green mt-3">
+    <div class="container p-3 mb-4" id="top-form">
+      <div class="">
+        <h1 class="h2 p-3 mt-0 bg-darkgreen text-yellow">ご予約フォーム</h1>
+      </div>
+      <p>下記のフォームに入力の上、送信してください。こちらからご連絡差し上げます。</p>
+      <p>２、３日経っても連絡がない場合は、恐れ入りますが、
+        <a href="tel:0542024520" style="color:white;">054-202-4520</a>までお電話ください。
+      </p>
+      <div class="bg-darkgreen px-2 py-3">
+        <form method="post" action="form/mail.php">
+          <div class="form-group">
+            <label for="name">お名前（フルネーム）</label>
+            <input name="お名前" type="text" class="form-control" id="name" placeholder="お名前（フルネーム）" required>
+          </div>
+          <div class="form-group">
+            <label for="name">ふりがな</label>
+            <input name="ふりがな" type="text" class="form-control" id="name" placeholder="ふりがな" required>
+          </div>
+          <div class="form-group">
+            <label for="name">携帯番号</label>
+            <input name="携帯番号" type="tel" class="form-control" id="name" placeholder="携帯番号" required>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">メールアドレス</label>
+            <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス" required>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">ご相談内容</label>
+            <textarea name="相談内容" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="ご相談内容" required></textarea>
+          </div>
+          <div class="d-flex justify-content-center text-center">
+            <button type="submit" class="btn btn-primary btn-lg">送信する</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
+  </div>
+  <!-- End Form  -->
 
 
   <!--  電話相談しない理由  -->
