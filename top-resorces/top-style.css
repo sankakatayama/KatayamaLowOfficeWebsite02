@@ -42,4 +42,8 @@ p{
 }
 a:hover{
   text-decoration: none;
+  color: #17a2b8;
+}
+.navbar-light .navbar-brand:hover {
+    color: #28a745;
 }
