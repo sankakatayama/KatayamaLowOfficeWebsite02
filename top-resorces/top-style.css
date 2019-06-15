@@ -1,6 +1,9 @@
 p{
   font-size: 1.25rem;
 }
+.lh-3{
+  line-height: 3rem;
+}
 
 .hidenori-photo{
   background-image: url(../top-resorces/top-images/AdobeStock_189603333.jpg);
