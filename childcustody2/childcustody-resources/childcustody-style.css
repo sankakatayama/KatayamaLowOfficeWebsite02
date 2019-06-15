@@ -2,29 +2,18 @@ p {
   font-size: 1.25rem;
 }
 
-.jumbotron {
-  background-image: url(../../childcustody2/childcustody-resources/images/AdobeStock_191372070.jpg);
-}
 
 hr {
   border-color: white;
 }
-
-.text-darkred {
-  color: darkred;
+.lh-3{
+  line-height: 3rem;
 }
 
-.bg-darkred {
-  background-color: darkred;
+.hidenori-photo{
+  background-image: url(../../childcustody2/childcustody-resources/images/AdobeStock_102201383_Preview.png);
 }
 
-.bg-grey {
-  background-color: #e9ecef;
-}
-
-.bg-grey2 {
-  background-color: #e9ecef;
-}
 
 .btn-primary {
   background-color: #066E83;
@@ -33,8 +22,4 @@ hr {
 
 a {
   color: #066E83;
-}
-
-.footer01 {
-  margin-bottom: 7rem;
 }
