@@ -293,16 +293,9 @@ textarea {
 }
 
 /*  ここから賛歌が入れた  */
-body{
-  margin-bottom: 84px;
-}
-
-
 p{
   font-size: 1.25rem;
 }
-
-
 
 a{
   color: #0062cc;
@@ -380,4 +373,7 @@ a:hover{
 
  .bg-teal2{
    background-color: #17a2b8;
+ }
+ .lh-3{
+   line-height: 3rem;
  }

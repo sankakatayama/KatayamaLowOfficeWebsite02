@@ -22,6 +22,15 @@ hr {
 a {
   color: #066E83;
 }
+a:hover{
+  color: ;
+  text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+
 .bg-dark{
   background-color: #4c808e;
 }
@@ -41,4 +50,7 @@ a {
 }
 .navbar-toggler-icon{
   color: white;
+}
+.min-300{
+  min-width: 290px;
 }
