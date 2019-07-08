@@ -1,6 +1,9 @@
 p {
   font-size: 1.25rem;
 }
+.list-text{
+  font-size: 1.25rem;
+}
 
 hr {
   border-color: white;
@@ -31,11 +34,11 @@ a:hover{
 }
 
 
-.bg-dark{
+.bg-dark2{
   background-color: #4c808e;
 }
-.bg-dark2{
-  background-color: #495057;
+.bg-grey{
+  background-color: #6c757d;
 }
 .bg-teal{
   background-color: teal;

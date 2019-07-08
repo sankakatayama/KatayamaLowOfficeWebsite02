@@ -121,13 +121,49 @@
         <li class="nav-item">
           <a class="nav-link font-weight-bold" href="../childcustody/childcustody.html">父親の親権</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link font-weight-bold" href="../childcustody/father-tyotei.html">父親の面会交流調停</a>
+        </li>
       </ul>
     </div>
   </nav>
   <!--  End Navbar  -->
 
-
-
+  <!--  Flexbox 親権の実績  -->
+  <div class="container-fluid pb-3 bg-dark2">
+    <h2 class="p-3 text-center font-weight-bold text-white">親権の実績</h2>
+    <div class="container p-2 mx-auto">
+      <div class="p-2 bg-teal text-white">
+        <h3 class="h4 m-2">4歳の女の子の親権者が父親に指定された事例</h3>
+        <p class="py-3 px-2 bg-info text-white">幼い女の子の親権者に父親が指定されるのは珍しいため、判例タイムズに掲載された事例。
+          <a href="#4years-girl">
+            <button type="button" class="m-2 btn btn-success">詳しくはこちら</button>
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="container p-2 mx-auto">
+      <div class="p-2 bg-teal text-white">
+        <h3 class="h4 m-2">生後8ヶ月の男の子の親権者が父親に指定された事例</h3>
+        <p class="py-3 px-2 bg-info text-white">父親が早めに相談したことにより適切な行動を取ることができた事例。
+          <a href="#8months-boy">
+            <button type="button" class="m-2 btn btn-success">詳しくはこちら</button>
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="container p-2 mx-auto">
+      <div class="p-2 bg-teal text-white">
+        <h3 class="h4 m-2">11歳の男の子の親権者が父親に指定された事例</h3>
+        <p class="py-3 px-2 bg-info text-white">男の子本人の、父親と一緒に暮らしたいという意向が尊重された事例。
+          <a href="#11years-boy">
+            <button type="button" class="m-2 btn btn-success">詳しくはこちら</button>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--  End Flexbox 親権の実績  -->
   <!--  お問い合わせアイコン  -->
   <div class="container-fluid bg-white-green mt-5 py-2">
     <div class="container-fluid bg-teal text-white">
@@ -137,7 +173,7 @@
     <!--  Flexbox  -->
     <div class="container">
       <div class="d-md-flex p-2  justify-content-center">
-        <div class="p-2 mt-2 mb-5 w-100 mx-2 text-center" style="background-color : teal;">
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center">
           <a onclick="return gtag_report_conversion('tel:0542024520');" href="tel:0542024520">
             <span style="font-size: 3em; color: #ffc107;">
               <i class="fas fa-phone-square"></i>
@@ -145,8 +181,8 @@
             <p class="mb-0 font-weight-bold text-white">電話で予約</p>
           </a>
         </div>
-        <div class="p-2 mt-2 mb-5 w-100 mx-2 text-center" style="background-color : teal;">
-          <a href="#childcustody-form">
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center">
+          <a href="#childcustody-form2">
             <span style="font-size: 3em; color: #ffc107;">
               <i class="fas fa-envelope"></i></i>
             </span>
@@ -158,67 +194,224 @@
     <!--  END Flexbox  -->
   </div>
   <!--  END お問い合わせアイコン  -->
-  <!--  Flexbox 親権の実績  -->
-  <div class="container-fluid pb-4">
-    <div class="container pb-3" style="background-color: #4c808e;">
-      <div class="container">
-        <h2 class="p-3 text-center font-weight-bold text-white">親権の実績</h2>
+  <!--  Form  -->
+  <div class="container bg-teal  text-white mt-5">
+    <div class="container p-3 mb-4" id="childcustody-form2">
+      <div class="bg-grey">
+        <h1 class="h2 p-3 mt-0">ご予約フォーム</h1>
       </div>
-      <div class="p-2 mx-auto w-75 min-300">
-        <!--  Flexbox  -->
-        <div class="d-flex flex-row bd-highlight justify-content-center">
-          <div class="p-0 bg-teal text-white">
-            <p class="h1 p-3 text-white">1</p>
+      <p>下記のフォームに入力の上、送信してください。こちらからご連絡差し上げます。</p>
+      <p>２、３日経っても連絡がない場合は、恐れ入りますが、
+        <a href="tel:0542024520" style="color:white;">054-202-4520</a>までお電話ください。
+      </p>
+      <div class="bg-darkgreen px-2 py-3">
+        <form method="post" action="form/mail.php">
+          <div class="form-group">
+            <label for="name">お名前（フルネーム）</label>
+            <input name="お名前" type="text" class="form-control" id="name" placeholder="お名前（フルネーム）" required>
           </div>
-          <div class="w-75 p-2 procedure-box bg-teal text-white">
-            <h3 class="h4 m-2">4歳の女の子の親権者が父親に指定された事例</h3>
-            <p class="py-3 px-2 bg-info text-white">幼い女の子の親権者に父親が指定されるのは珍しいため、判例タイムズに掲載された事例。
-              <a href="../childcustody/childcustody-performance.html#cp001">
-                <button type="button" class="m-2 btn btn-success">詳しくはこちら</button>
-              </a>
-            </p>
+          <div class="form-group">
+            <label for="name">ふりがな</label>
+            <input name="ふりがな" type="text" class="form-control" id="name" placeholder="ふりがな" required>
           </div>
-        </div>
-        <!--  End Flexbox  -->
-      </div>
-      <div class="p-2 mx-auto w-75 min-300">
-        <!--  Flexbox  -->
-        <div class="d-flex flex-row bd-highlight justify-content-center">
-          <div class="p-0 bg-teal text-white">
-            <p class="h1 p-3 text-white">2</p>
+          <div class="form-group">
+            <label for="name">携帯番号</label>
+            <input name="携帯番号" type="tel" class="form-control" id="name" placeholder="携帯番号" required>
           </div>
-          <div class="w-75 p-2 procedure-box bg-teal text-white">
-            <h3 class="h4 m-2">生後8ヶ月の男の子の親権者が父親に指定された事例</h3>
-            <p class="py-3 px-2 bg-info text-white">父親が早めに相談したことにより適切な行動を取ることができた事例。
-              <a href="../childcustody/childcustody-performance.html#cp002">
-                <button type="button" class="m-2 btn btn-success">詳しくはこちら</button>
-              </a>
+          <div class="form-group">
+            <label for="exampleInputEmail1">メールアドレス</label>
+            <input name="Email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス" required>
           </div>
-        </div>
-        <!--  End Flexbox  -->
-      </div>
-      <div class="p-2 mx-auto w-75 min-300">
-        <!--  Flexbox  -->
-        <div class="d-flex flex-row bd-highlight justify-content-center">
-          <div class="p-0 bg-teal text-white">
-            <p class="h1 p-3 text-white">3</p>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">ご相談内容</label>
+            <textarea name="相談内容" class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="ご相談内容" required></textarea>
           </div>
-          <div class="w-75 p-2 procedure-box bg-teal text-white">
-            <h3 class="h4 m-2">11歳の男の子の親権者が父親に指定された事例</h3>
-            <p class="py-3 px-2 bg-info text-white">男の子本人の、父親と一緒に暮らしたいという意向が尊重された事例。
-              <a href="../childcustody/childcustody-performance.html#cp003">
-                <button type="button" class="m-2 btn btn-success">詳しくはこちら</button>
-              </a>
+          <div class="d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary btn-lg">送信する</button>
           </div>
-        </div>
-        <!--  End Flexbox  -->
+        </form>
       </div>
     </div>
   </div>
-  <!--  End Flexbox 親権の実績  -->
+  </div>
+  <!-- End Form  -->
+  <!--  親権の実績の詳細  ４歳の女の子  -->
+  <div class="container-fluid bg-teal my-3 py-3" id="4years-girl">
+    <div class="container bg-white-green pb-5">
+      <h2 class="h4 p-2 mb-1 bg-dark text-white">４歳の女の子の親権者が父親に指定された事例</h2>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">受任時の状況</h3>
+      <p class="p-2 bg-teal text-white">依頼者の妻が不貞行為を依頼者に咎められて、子（4歳の女児）を連れて実家に帰ってしまい、別居が開始された。夫婦共働きであり、依頼者（父）の職種は営業職。父も母も同程度の監護をしていた。</p>
+      <h3 class="h4 p-2 mb-1 bg-grey text-white">事件名</h3>
+      <div class="p-2 bg-teal text-white">
+        <p class="mb-1">下記の事件を静岡地方裁判所に申し立てた。</p>
+        <ul class="">
+          <li class="list-text">子の監護者の指定審判申立事件</li>
+          <li class="list-text">子の引渡し審判申立事件</li>
+          <li class="list-text">損害賠償請求事件</li>
+          <li class="list-text">財産分与申立事件</li>
+        </ul>
+      </div>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">審判の結果</h3>
+      <p class="p-2 bg-teal text-white">
+        一審の静岡地裁で勝訴して、依頼者である父が監護者（＊）に指定された。4歳の女児について父が監護者として指定されることは珍しい。<br>
+        本件は、東京高裁に控訴されたが、控訴は棄却されて、一審が確定した。詳細は判例タイムズ1383号（2013年2月号）を参照。<br>
+        本件は、従前から父と母それぞれが同程度の監護を行なっており、父にも母にも監護能力が十分にある事例であったため、父と母の両者ともに、自分が主たる監護者であると主張した。相手方（母）は、不貞行為をして婚姻生活を破壊した上、子どもを勝手に自分の実家に連れ去っている。このような点が考慮され、父が監護者として指定された。<br>
+        ＊監護者とは、離婚まで子どもの監護をする人という意味。離婚時には、監護者が通常親権者に指定されます。
+      </p>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">事件終了時の状況</h3>
+      <p class="mb-2 p-2 bg-teal text-white">控訴審終了後、母は、父が親権者であることに同意して、調停離婚をした。<br>
+        監護者の指定の審判中、子どもは相手方の母親の家で監護されていた。そのため、監護者者の指定の審判で勝訴した後に、子の引渡しについての保全決定（＊）によって、子の引渡を実行した。<br>
+        子の引渡しの保全命令の実行には、実際には、現地の下見、執行官との交渉、どこで執行するかの場所の選定、子どもを引き渡してもらうようにどうやって説得をするかなど、判断が難しい点がある。<br>
+        子の監護権を得る判決を得ても、実際に子どもを連れ戻すという執行手続を熟知していなければ、子どもを手元に連れ戻すことはできないということを常に意識する必要がある。<br>
+        ＊保全決定：判決が控訴されて確定しない間であっても、暫定的に、子どもを取り戻せる決定。</p>
+    </div>
+  </div>
+  <!--  END 親権の実績の詳細  ４歳の女の子  -->
+  <!--  お問い合わせアイコン  -->
+  <div class="container-fluid bg-white-green mt-5 py-2">
+    <div class="container-fluid bg-teal text-white">
+      <h1 class="h4 py-2 text-center font-weight-bold">初回の法律相談は１時間無料</h1>
+    </div>
+
+    <!--  Flexbox  -->
+    <div class="container">
+      <div class="d-md-flex p-2  justify-content-center">
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center">
+          <a onclick="return gtag_report_conversion('tel:0542024520');" href="tel:0542024520">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-phone-square"></i>
+            </span>
+            <p class="mb-0 font-weight-bold text-white">電話で予約</p>
+          </a>
+        </div>
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center" >
+          <a href="#childcustody-form2">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-envelope"></i></i>
+            </span>
+            <p class="font-weight-bold text-white">フォームで予約</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--  END Flexbox  -->
+  </div>
+  <!--  END お問い合わせアイコン  -->
+  <!--  親権の実績の詳細  8ヶ月の男の子  -->
+  <div class="container-fluid bg-teal my-3 py-3" id="8months-boy">
+    <div class="container bg-white-green pb-5">
+      <h2 class="h4 p-2 mb-1 bg-dark text-white">生後8ヶ月の男の子の親権者が父親に指定された事例</h2>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">受任時の状況</h3>
+      <p class="p-2 bg-teal text-white">夫は公務員。妻は専業主婦。妻が、子ども2人（妻の連れ子と長男）を自分の実家に連れて行き、別居を始める準備をしていることが判明。そのままでは妻が子どもを連れ去ることが予想されたので、夫が長男（当時生後6ヶ月）を連れ帰った。夫は別居のためにアパートを借りて自身の母の援助の元、長男の監護を開始した。</p>
+      <h3 class="h4 p-2 mb-1 bg-grey text-white">事件名</h3>
+      <div class="p-2 bg-teal text-white">
+        <p class="mb-1">夫（父）が長男の監護を開始して１週間程度経過した時点で、妻（母）が下記の事件を裁判所に申し立てた。</p>
+        <ul class="">
+          <li class="list-text">子の監護者の指定審判申立事件</li>
+          <li class="list-text">子の引渡し審判申立事件</li>
+          <li class="list-text">子の引渡の保全申立</li>
+        </ul>
+      </div>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">審判の結果</h3>
+      <p class="p-2 bg-teal text-white">一審では、監護者を父と指定する決定が出された。母が申立をした子の引渡しについては却下された（一審勝訴）。<br>
+        その後、妻が東京高等裁判所に抗告したが、抗告は棄却され、父の監護権を認めた一審の決定が維持された（二審勝訴）。
+      </p>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">事件終了時の状況</h3>
+      <p class="mb-2 p-2 bg-teal text-white">
+        監護者が父に確定した段階で、母（妻）は親権を取得することを諦め、父を親権者として協議離婚をした。<br>
+        現在父は、自身の母と共に、長男の育児に当たっている。</p>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">本件の特徴</h3>
+      <p class="mb-2 p-2 bg-teal text-white">
+        別居開始の当時は、長男が1歳未満であったこと、父はフルタイムの公務員である一方、母は専業主婦であったこと、以上の点にもかかわらず、父が親権を獲得したと言う点が本件の特筆すべき点である。<br>
+        本件は、父が自ら長男を連れて別居を始めたすぐ後に、我々に相談したことで適切な行動をとることができた事例である。<br>
+        また、別居を始めるにあたっての相手方（母）との詳細な交渉過程が、LINEやメールで残っていたことにより、父が大幅に長男の監護に関わっていたこと、別居に至る経緯において、父と母のいずれが子どもを養育するかと言う点について証拠の裏付けがあったことが勝因であった。</p>
+    </div>
+  </div>
+  <!--  END 親権の実績の詳細  8ヶ月の男の子  -->
+  <!--  お問い合わせアイコン  -->
+  <div class="container-fluid bg-white-green mt-5 py-2">
+    <div class="container-fluid bg-teal text-white">
+      <h1 class="h4 py-2 text-center font-weight-bold">初回の法律相談は１時間無料</h1>
+    </div>
+
+    <!--  Flexbox  -->
+    <div class="container">
+      <div class="d-md-flex p-2  justify-content-center">
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center">
+          <a onclick="return gtag_report_conversion('tel:0542024520');" href="tel:0542024520">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-phone-square"></i>
+            </span>
+            <p class="mb-0 font-weight-bold text-white">電話で予約</p>
+          </a>
+        </div>
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center">
+          <a href="#childcustody-form2">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-envelope"></i></i>
+            </span>
+            <p class="font-weight-bold text-white">フォームで予約</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--  END Flexbox  -->
+  </div>
+  <!--  END お問い合わせアイコン  -->
+  <!--  親権の実績の詳細  11歳の男の子  -->
+  <div class="container-fluid bg-teal my-3 py-3" id="11years-boy">
+    <div class="container bg-white-green pb-5">
+      <h2 class="h4 p-2 mb-1 bg-dark text-white">１１歳の男の子の親権者が父親に指定された事例</h2>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">受任時の状況</h3>
+      <p class="p-2 bg-teal text-white">長男11歳と長女7歳。子どもの長期休暇の間に、妻が子ども2人を連れて出て行った。妻が突然、離婚を宣言し、子どもが長期休みに入るのと同時に別居が始まった。夫婦共働きで、父は営業職、母は看護師。</p>
+      <h3 class="h4 p-2 mb-1 bg-grey text-white">事件名</h3>
+      <div class="p-2 bg-teal text-white">
+        <ul class="">
+          <li class="list-text">子の監護者の指定審判申立事件</li>
+          <li class="list-text">子の引渡し審判申立事件</li>
+          <li class="list-text">審判前の保全処分</li>
+        </ul>
+      </div>
+      <h3 class="h4 p-2 mt-3 mb-1 bg-grey text-white">審判の結果</h3>
+      <p class="p-2 bg-teal text-white">別居開始から、父は子どもと面会を続けていたが、長期休暇に入った長男が、父の元で暮らしたいと述べた。長男の意向調査と学校での調査をした上で、長男の意向の確認をした。<br>
+        その上で、長男には、父の元から中学校に通学する積極的な意思があること及び、妹である長女との交流も面会交流を通じて行うことで継続でき、兄妹関係分断のデメリットも回避できるとのことから、長男については、父が監護することが妥当である旨の調査報告書が作成された。この調査報告書を前提として、長男の監護と父が行うこととして離婚の和解がされた。
+      </p>
+    </div>
+  </div>
+  <!--  END 親権の実績の詳細  11歳の男の子  -->
+  <!--  お問い合わせアイコン  -->
+  <div class="container-fluid bg-white-green mt-5 py-2">
+    <div class="container-fluid bg-teal text-white">
+      <h1 class="h4 py-2 text-center font-weight-bold">初回の法律相談は１時間無料</h1>
+    </div>
+
+    <!--  Flexbox  -->
+    <div class="container">
+      <div class="d-md-flex p-2  justify-content-center">
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center">
+          <a onclick="return gtag_report_conversion('tel:0542024520');" href="tel:0542024520">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-phone-square"></i>
+            </span>
+            <p class="mb-0 font-weight-bold text-white">電話で予約</p>
+          </a>
+        </div>
+        <div class="p-2 mt-2 mb-5 bg-teal w-100 mx-2 text-center">
+          <a href="#childcustody-form2">
+            <span style="font-size: 3em; color: #ffc107;">
+              <i class="fas fa-envelope"></i></i>
+            </span>
+            <p class="font-weight-bold text-white">フォームで予約</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--  END Flexbox  -->
+  </div>
+  <!--  END お問い合わせアイコン  -->
   <!--  Form  -->
-  <div class="container bg-teal  text-white mt-5">
-    <div class="container p-3 mb-4" id="childcustody-form">
+  <div class="container bg-teal text-white mt-5">
+    <div class="container p-3 mb-4" id="childcustody-form2">
       <div class="bg-dark">
         <h1 class="h2 p-3 mt-0 bg-darkgreen text-yellow">ご予約フォーム</h1>
       </div>
@@ -257,6 +450,7 @@
   </div>
   </div>
   <!-- End Form  -->
+
 
   <!--  Footer no.1  -->
   <footer class="footer py-3">
