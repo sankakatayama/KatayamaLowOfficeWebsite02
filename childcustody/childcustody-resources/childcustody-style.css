@@ -33,6 +33,9 @@ a:hover{
   color: white;
 }
 
+.text-red{
+  color: darkred;
+}
 
 .bg-dark2{
   background-color: #4c808e;
