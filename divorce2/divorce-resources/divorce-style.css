@@ -377,3 +377,6 @@ a:hover{
  .lh-3{
    line-height: 3rem;
  }
+ .footer-font p{
+   font-size: 1rem;
+ }
