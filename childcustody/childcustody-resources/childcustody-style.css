@@ -37,6 +37,10 @@ a:hover{
   color: darkred;
 }
 
+.text-teal{
+  color: teal;
+}
+
 .bg-dark2{
   background-color: #4c808e;
 }
@@ -62,4 +66,13 @@ a:hover{
 }
 .footer-font p{
   font-size: 1rem;
+}
+
+.page-item.active .page-link{
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.page-link{
+  color: #17a2b8;
 }
