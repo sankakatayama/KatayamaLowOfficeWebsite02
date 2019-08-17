@@ -22,12 +22,16 @@ hr {
   border-color: #066E83;
 }
 
-a {
+a{
   color: #066E83;
 }
 a:hover{
   color: ;
   text-decoration: none;
+}
+ol.list-text{
+  text-decoration: underline;
+
 }
 .navbar-dark .navbar-nav .nav-link{
   color: white;
@@ -39,6 +43,9 @@ a:hover{
 
 .text-teal{
   color: teal;
+}
+.text-grey{
+  color: grey;
 }
 
 .bg-dark2{
