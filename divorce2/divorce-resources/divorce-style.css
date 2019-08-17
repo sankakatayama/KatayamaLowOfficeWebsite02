@@ -293,7 +293,7 @@ textarea {
 }
 
 /*  ここから賛歌が入れた  */
-p{
+p,li{
   font-size: 1.25rem;
 }
 
@@ -346,14 +346,14 @@ a:hover{
   color: #dc3545;
 }
 
- .navbar-light .navbar-brand{
+.navbar-light .navbar-brand{
    color: #117a8b;
  }
 
- .bg-grey{
+.bg-grey{
    background-color: #e9ecef;
  }
- .bg-grey2{
+.bg-grey2{
    background-color: #ced4da;
  }
 .bg-grey3{
@@ -366,28 +366,28 @@ a:hover{
 .text-yellow{
   color: #ffc107;
 }
+.bg-light-green{
+  background-color: #b4ded4;
+}
 
 
- .bg-tomato{
+.bg-tomato{
    background-color: #dc3545;
  }
 
- .bg-yellow{
+.bg-yellow{
    background-color: #ffc107;
  }
- .bg-teal{
+.bg-teal{
    background-color: teal;
  }
 
- .bg-teal2{
+.bg-teal2{
    background-color: #17a2b8;
  }
- .lh-3{
+.lh-3{
    line-height: 3rem;
  }
- .footer-font p{
+.footer-font p{
    font-size: 1rem;
  }
-.breadcrumb{
-  background-color: white;
-}
