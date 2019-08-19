@@ -296,6 +296,10 @@ textarea {
 p,li{
   font-size: 1.25rem;
 }
+.card-columns p{
+  font-size: inherit;
+}
+
 
 a{
   color: #17a2b8;
