@@ -395,3 +395,7 @@ a:hover{
 .footer-font p{
    font-size: 1rem;
  }
+
+.card{
+  border-radius: 0;
+}
