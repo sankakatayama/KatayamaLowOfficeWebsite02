@@ -293,8 +293,14 @@ textarea {
 }
 
 /*  ここから賛歌が入れた  */
+
 p,li{
   font-size: 1.25rem;
+}
+
+
+li .breadcrumb-item{
+  font-size: inherit;
 }
 .card-columns p{
   font-size: inherit;
