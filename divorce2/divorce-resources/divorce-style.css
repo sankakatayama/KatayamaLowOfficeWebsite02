@@ -190,6 +190,7 @@ textarea {
 .clearfix:before,
 .clearfix:after {
   content: " "; /* 1 */
+
   display: table; /* 2 */
 }
 
@@ -228,10 +229,13 @@ textarea {
     *:after {
         background: transparent !important;
         color: #000 !important; /* Black prints faster */
+
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
+
+
 
     a,
     a:visited {
@@ -292,6 +296,8 @@ textarea {
     }
 }
 
+
+
 /*  ここから賛歌が入れた  */
 
 p,li{
@@ -315,6 +321,8 @@ a:hover{
   color: teal;
   text-decoration: none;
 }
+
+
 
 .page-item.active .page-link{
   background-color: #17a2b8;
@@ -404,4 +412,9 @@ a:hover{
 
 .card{
   border-radius: 0;
+}
+.border-teal{
+  border: solid;
+  border-color: teal;
+  border-width: thick;
 }
