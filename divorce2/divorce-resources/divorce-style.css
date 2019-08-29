@@ -304,6 +304,13 @@ p,li{
   font-size: 1.25rem;
 }
 
+.line-height-03{
+  line-height: 0.3;
+}
+
+.li-style-square{
+  list-style: square;
+}
 
 li .breadcrumb-item{
   font-size: inherit;
