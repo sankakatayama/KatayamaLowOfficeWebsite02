@@ -15,7 +15,11 @@ p{
 .bg-darkgreen{
   background-color: #0c5460;
 }
-
+.border-bluegreen-thick{
+  border: solid;
+  border-width: thick;
+  border-color: #17a2b8;
+}
 
 .text-tomato{
   color: #EE3510;
