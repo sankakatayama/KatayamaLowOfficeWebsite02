@@ -303,6 +303,9 @@ textarea {
 p,li{
   font-size: 1.25rem;
 }
+p.card-text{
+  font-size: inherit;
+}
 
 .line-height-03{
   line-height: 0.3;
