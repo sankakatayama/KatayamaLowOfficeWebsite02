@@ -413,6 +413,10 @@ a:hover{
 .bg-teal2{
    background-color: #17a2b8;
  }
+.bg-footer-fixed-bottom{
+  background-color: #117a8b;
+}
+
 .lh-3{
    line-height: 3rem;
  }
