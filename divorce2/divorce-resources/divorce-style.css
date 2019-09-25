@@ -299,6 +299,9 @@ textarea {
 
 
 /*  ここから賛歌が入れた  */
+body{
+  margin-bottom: 100px;
+}
 
 p,li{
   font-size: 1.25rem;
