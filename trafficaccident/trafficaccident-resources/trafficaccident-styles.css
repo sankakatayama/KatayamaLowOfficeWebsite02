@@ -1,0 +1,88 @@
+body{
+  margin-bottom: 78px;
+}
+
+p {
+  font-size: 1.25rem;
+}
+.list-text{
+  font-size: 1.25rem;
+}
+
+hr {
+  border-color: white;
+}
+.lh-3{
+  line-height: 3rem;
+}
+
+.trafficaccident-bg{
+  background-image: url(../../trafficaccident/trafficaccident-resources/trafficaccident-images/AdobeStock_270437565.png);
+}
+
+
+.btn-primary {
+  background-color: #066E83;
+  border-color: #066E83;
+}
+
+a{
+  color: #066E83;
+}
+a:hover{
+  color: ;
+  text-decoration: none;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+.text-red{
+  color: darkred;
+}
+
+.text-teal{
+  color: teal;
+}
+.text-grey{
+  color: grey;
+}
+
+
+.bg-bluegreen{
+  background-color: #294550;
+}
+.bg-grey{
+  background-color: #6c757d;
+}
+.bg-teal{
+  background-color: teal;
+}
+.bg-white-green{
+  background-color: #9bccd3;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color: white;
+
+}
+.navbar-toggler-icon{
+  color: white;
+}
+.min-300{
+  min-width: 290px;
+}
+.footer-font p{
+  font-size: 1rem;
+}
+
+.page-item.active .page-link{
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.page-link{
+  color: #17a2b8;
+}
