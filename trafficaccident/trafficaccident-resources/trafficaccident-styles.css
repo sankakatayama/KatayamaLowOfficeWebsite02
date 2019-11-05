@@ -1,7 +1,9 @@
 body{
   margin-bottom: 78px;
 }
-
+p {
+  font-size: 1.25rem;
+}
 
 .list-text{
   font-size: 1.25rem;
@@ -79,12 +81,7 @@ a:hover{
 .footer-font p{
   font-size: 1rem;
 }
-
-.page-item.active .page-link{
-  background-color: #17a2b8;
-  border-color: #17a2b8;
-}
-
-.page-link{
-  color: #17a2b8;
+.dropdown-item.active{
+  background-color: #117a8b;
+  border-color: #117a8b;
 }
