@@ -2,9 +2,7 @@ body{
   margin-bottom: 78px;
 }
 
-p {
-  font-size: 1.25rem;
-}
+
 .list-text{
   font-size: 1.25rem;
 }
@@ -49,6 +47,9 @@ a:hover{
 }
 .text-grey{
   color: grey;
+}
+.text-darkgreen{
+  color: #294550;
 }
 
 
