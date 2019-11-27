@@ -4,6 +4,10 @@ body{
 p{
   font-size: 1.25rem;
 }
+.text-small{
+  font-size: 1rem;
+}
+
 .lh-3{
   line-height: 3rem;
 }
@@ -18,10 +22,16 @@ p{
 .bg-darkgreen{
   background-color: #0c5460;
 }
+.bg-darkgreen2{
+  background-color: #577750;
+}
 .border-bluegreen-thick{
   border: solid;
   border-width: thick;
   border-color: #17a2b8;
+}
+.bg-tomato{
+  background-color: #EE3510;
 }
 
 .text-tomato{
@@ -37,10 +47,19 @@ p{
 .text-darkgreen{
   color: #0c5460;
 }
+.text-grey{
+  color: #6c757d;
+}
+.text-grey2{
+  color: #495057;
+}
 
 
 a{
   color: #17a2b8
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: #0c5460;
 }
 
 .navbar-light .navbar-brand{
@@ -70,4 +89,14 @@ a:hover{
 }
 .footer-font p{
   font-size: 1rem;
+}
+
+.procedure-box a{
+  color: white;
+}
+.justline{
+  border-right: 0.5rem solid;
+  border-color: #0c5460;
+  min-height: 3rem;
+
 }
