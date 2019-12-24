@@ -42,12 +42,17 @@ a:hover{
 .text-red{
   color: darkred;
 }
-
+.text-tomato{
+  color: #EE3510;
+}
 .text-teal{
   color: teal;
 }
 .text-grey{
   color: grey;
+}
+.text-grey2{
+  color: #495057;
 }
 
 .bg-dark2{
