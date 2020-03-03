@@ -309,6 +309,9 @@ p,li{
 p.card-text{
   font-size: inherit;
 }
+.list-fs-small{
+  font-size: inherit;
+}
 
 .line-height-03{
   line-height: 0.3;
@@ -376,7 +379,9 @@ a:hover{
 .text-tomato{
   color: #dc3545;
 }
-
+.text-grey{
+  color: darkslategrey;
+}
 .navbar-light .navbar-brand{
    color: #117a8b;
  }

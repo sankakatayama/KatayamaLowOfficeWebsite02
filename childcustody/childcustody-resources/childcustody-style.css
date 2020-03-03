@@ -54,6 +54,12 @@ a:hover{
 .text-grey2{
   color: #495057;
 }
+.text-dark2{
+  color: #4c808e;
+}
+.text-yellow{
+  color: #eead4a;
+}
 
 .bg-dark2{
   background-color: #4c808e;
