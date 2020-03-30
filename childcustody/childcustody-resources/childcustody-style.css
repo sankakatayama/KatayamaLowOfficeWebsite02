@@ -1,10 +1,11 @@
 body{
   margin-bottom: 78px;
 }
-
+/*
 p {
   font-size: 1.25rem;
-}
+}*/
+
 .list-text{
   font-size: 1.25rem;
 }
@@ -24,6 +25,14 @@ hr {
 .btn-primary {
   background-color: #066E83;
   border-color: #066E83;
+}
+
+/*
+.btn{
+  font-size: 1.25rem;
+}*/
+.btn-link{
+  color: #066E83;
 }
 
 a{
@@ -54,6 +63,10 @@ a:hover{
 .text-grey2{
   color: #495057;
 }
+
+.text-grey3{
+  color: #212529;
+}
 .text-dark2{
   color: #4c808e;
 }
@@ -72,6 +85,9 @@ a:hover{
 }
 .bg-white-green{
   background-color: #9bccd3;
+}
+.bg-yellow{
+  background-color: #eead4a;
 }
 
 .navbar-light .navbar-nav .nav-link{
