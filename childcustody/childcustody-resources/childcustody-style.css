@@ -89,6 +89,9 @@ a:hover{
 .bg-yellow{
   background-color: #eead4a;
 }
+.bg-darkgreen{
+  background-color: #066e83;
+}
 
 .navbar-light .navbar-nav .nav-link{
   color: white;
