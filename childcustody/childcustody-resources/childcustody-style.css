@@ -6,6 +6,17 @@ p {
   font-size: 1.25rem;
 }*/
 
+#rgba {
+    background-color: rgba(0,0,0,0.7);
+}
+#rgba2 {
+    background-color: rgba(0,0,0,0.7);
+}
+#rgba2 a{
+  color: white;
+}
+
+
 .list-text{
   font-size: 1.25rem;
 }
@@ -25,6 +36,10 @@ hr {
 .btn-primary {
   background-color: #066E83;
   border-color: #066E83;
+}
+.btn-primary:hover{
+  background-color: #198306;
+  border-color: #198306;
 }
 
 /*
@@ -51,11 +66,17 @@ a:hover{
 .text-red{
   color: darkred;
 }
+.text-red2{
+  color: #bd2130;
+}
 .text-tomato{
   color: #EE3510;
 }
 .text-teal{
   color: teal;
+}
+.text-darkgreen2{
+  color: #056e83;
 }
 .text-grey{
   color: grey;

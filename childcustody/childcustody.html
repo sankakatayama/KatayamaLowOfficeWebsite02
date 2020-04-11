@@ -90,7 +90,7 @@
 
 <body>
   <!--  Navbar  -->
-  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar navbar-dark sticky-top" id="rgba">
     <a class="navbar-brand" href="../index.html"><span class="font-weight-bold">片山ひでのり法律事務所</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -98,25 +98,27 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="../consultation.html">法律相談</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../map.html">地図</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../about.html">弁護士について</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../reviews/reviwes-divorce/reviwes-divorce01-men01.html">男性のお客様の声</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link font-weight-bold" href="../divorce2/divorce2.html">離 婚</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link font-weight-bold" href="../childcustody/childcustody-performance.html">父親の親権の実績</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link font-weight-bold dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">在宅で弁護士に相談</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../childcustody/childcustody-landingpage.html#consultationathome">在宅で弁護士に相談</a>
+            <a class="dropdown-item" href="../childcustody/childcustody-landingpage.html#checklist">自己診断 | 親権獲得 チェックリスト</a>
+            <a class="dropdown-item" href="../childcustody/childcustody-landingpage.html#diagnosis">弁護士による | 親権獲得 事前診断</a>
+            <a class="dropdown-item" href="../childcustody/childcustody-landingpage.html#faq">よくある質問</a>
+            <a class="dropdown-item" href="../childcustody/childcustody-landingpage.html#procedure">事件着手までの流れ</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link font-weight-bold" href="../childcustody/father-tyotei.html">父親の面会交流</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link font-weight-bold dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">男性のお客様の声</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="../childcustody/childcustody-landingpage.html#review-fother">父親の親権のお客様の声</a>
+            <a class="dropdown-item" href="../reviews/reviwes-divorce/reviwes-divorce01-men01.html">男性の離婚のお客様の声</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -162,8 +164,8 @@
         <p class="pt-3 mb-0">もっと早くに相談に来ていたらと後悔しました。他の弁護士の先生からは聞けなかった話しや対処法を聞くことができました。<br>親権で悩んでいる方がいたら、まず片山先生に相談に来るべきです。僕のような社会的理不尽な扱いを受けないように対応する術を持っています。</p>
         <p class="mt-0 pb-2 text-right">４０代　男性</p>
         <!--  初回法律案内ボタン  -->
-        <a href="../consultation.html">
-          <button type="button" class="btn btn-success btn-lg btn-block">初回法律相談はこちら</button>
+        <a href="#childcustody-consultation">
+          <button type="button" class="btn btn-success btn-lg btn-block">初回法律相談の<br>ご予約はこちら</button>
         </a>
         <!--  END 初回法律案内ボタン  -->
       </div>
@@ -177,8 +179,8 @@
         <p>確かに、父親が親権者・監護権者に指定されることは、難しい場合がほとんどです。</p>
         <p>それは、特に３，４歳ぐらいまでの子どもにとっては、母親の存在が不可欠という認識が一般的であることだけでなく、裁判所を通しての争いには時間も手間もかかるため、依頼者である父親自身に、忍耐力が必要とされるためです。また、父親自身が、どのくらい子どもに真剣に向き合っていくか、その姿勢が問われるためです。</p>
         <!--  初回法律案内ボタン  -->
-        <a href="../consultation.html">
-          <button type="button" class="btn btn-success btn-lg btn-block">初回法律相談はこちら</button>
+        <a href="#childcustody-consultation">
+          <button type="button" class="btn btn-success btn-lg btn-block">初回法律相談の<br>ご予約はこちら</button>
         </a>
         <!--  END 初回法律案内ボタン  -->
       </div>
@@ -202,8 +204,8 @@
           <p>現在、日本国内においても、2014年4月1日からハーグ条約（国際的な子の奪取の民事面に関する条約）の国内的効力が発生することもあり、夫婦間の子の引渡をめぐる紛争は増加している傾向にあります。</p>
           <p>このような状況のもと、今後増加する可能性のある夫婦間の子の引渡の分野において、特に、難しいとされる父親からの子の引渡請求について、今後も、より積極的に取り扱っていくつもりです。</p>
           <!--  初回法律案内ボタン  -->
-          <a href="../consultation.html">
-            <button type="button" class="btn btn-success btn-lg btn-block">初回法律相談はこちら</button>
+          <a href="#childcustody-consultation">
+            <button type="button" class="btn btn-success btn-lg btn-block">初回法律相談の<br>ご予約はこちら</button>
           </a>
           <!--  END 初回法律案内ボタン  -->
       </div>
@@ -211,9 +213,9 @@
   </div>
   <!-- END Chile-custody Hidenori Photo  -->
   <!--  お問い合わせアイコン  -->
-  <div class="container-fluid bg-white-green mt-5 py-2">
-    <div class="container-fluid bg-teal text-white">
-      <h1 class="h4 py-2 text-center font-weight-bold">初回の法律相談は<br>30分1,000円</h1>
+  <div class="container-fluid bg-white-green mt-5 py-2" id="childcustody-consultation">
+    <div class="container-fluid bg-teal text-white mt-4">
+      <h1 class="h4 py-4 text-center font-weight-bold">初回の法律相談は<br>1時間2,000円</h1>
     </div>
 
     <!--  Flexbox  -->
