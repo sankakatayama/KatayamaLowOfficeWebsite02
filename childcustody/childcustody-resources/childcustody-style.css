@@ -6,13 +6,13 @@ p {
   font-size: 1.25rem;
 }*/
 
-#rgba {
+.rgba {
     background-color: rgba(0,0,0,0.7);
 }
-#rgba2 {
-    background-color: rgba(0,0,0,0.7);
+.dropdown-menu.rgba2 {
+    background-color: rgba(0,0,0,0.5);
 }
-#rgba2 a{
+.rgba2 a{
   color: white;
 }
 
