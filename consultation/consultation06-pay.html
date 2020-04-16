@@ -104,9 +104,9 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="../consultation.html" role="button" aria-haspopup="true" aria-expanded="false">法律相談</a>
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="../consultation.html" role="button" aria-haspopup="true" aria-expanded="false">在宅法律相談</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="../consultation.html">法律相談</a>
+            <a class="dropdown-item" href="../consultation.html">在宅法律相談</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="../consultation/consultation03-procedure.html">相談までのステップ</a>
             <a class="dropdown-item" href="../consultation/consultation04-calendar.html">予約カレンダー</a>
@@ -142,106 +142,91 @@
           </div>
           <h2 class="h4 mt-0 mb-3 text-center font-weight-bold">お支払い方法</h2>
         </div>
-        <div class="container font-weight-bold mb-5">
-          <ul class="list-group">
-            <li class="list-group-item text-darkgreen">現　金</li>
-            <a href="#payment-transfer">
-              <li class="list-group-item">振　込</li>
-            </a>
-            <a href="#payment-mail">
-              <li class="list-group-item">メールでの決済</li>
-            </a>
-            <a href="#payment-paypal">
-              <li class="list-group-item">PayPal（ペイパル）での決済</li>
-            </a>
-            <a href="#payment-card">
-              <li class="list-group-item">クレジットカード決済</li>
-            </a>
-          </ul>
-        </div>
-        <!--  振込  -->
-        <div class="container bg-white pb-3" id="payment-transfer">
-          <h2 class="h4 p-2 m-0 mt-3 text-center bg-darkgreen text-white">
-            <strong>振込でのお支払い</strong>
-          </h2>
-          <div class="p-1">
-            <p class="mt-2 text-small text-center">
-              <strong>ジャパンネット銀行</strong>
-              <br><strong>ビジネス営業部</strong>
-              <br><strong>口座番号2593513</strong>
-              <br><strong>名義人
-              <br>片山ひでのり法律事務所片山栄範
-              <br>（カタヤマヒデノリホウリツジムショ
-              カタヤマヒデノリ）</strong>
-            </p>
-          </div>
-
-        </div>
-        <!--  END 振込  -->
 
 
-
-
-        <!--  メールでの決済  -->
-        <div class="container bg-white pb-3 mb-5 startpoint" id="payment-mail">
-          <h2 class="h4 p-2 m-0 mt-3 text-center bg-darkgreen text-white">
-            <strong>メールでの決済</strong>
-          </h2>
-          <p class="mt-2 text-small">メールアドレスに、ペイパルのリンクを送信します。クレジットカード・デビットカード・口座振替でお支払いください。</p>
-          <div class="text-center">
-            <img src="../top-resorces/top-images/creditcard-new.png" class="img-fluid" alt="Responsive image">
+        <!--  お支払い方法  -->
+        <!--  Content  -->
+        <!--  Flexbox PayPal  -->
+        <div class="d-flex justify-content-center bg-white mb-1 px-2">
+          <div class="w-75 d-flex flex-column bd-highlight mb-3">
+            <div class="p-0 m-0 text-center">
+              <h2 class="h4 p-2 m-2 text-bluegreen">
+                <strong>オンライン決済</strong></h2>
+            </div>
+            <div class="p-2 bg-bluegreen text-white">
+              <h3 class="h5 text-center"><strong>PayPal（ペイパル）でのお支払い</strong></h3>
+            </div>
+            <div class="text-center">
+              <!-- PayPal Logo -->
+              <table border="0" cellpadding="10" cellspacing="0" align="center">
+                <tr>
+                  <td align="center"><a href="#"
+                      onclick="javascript:window.open('https://www.paypal.com/jp/webapps/mpp/logo/about','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=900, height=700');"><img
+                        src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/jp/developer/203x80_b.png" border="0" alt="ペイパル｜カード情報も、口座番号も、ペイパルが守ります。｜VISA, Mastercard, JCB, American Express, Union Pay, 銀行"></a></td>
+                </tr>
+              </table><!-- PayPal Logo -->
+            </div>
+            <div class="p-2 text-center">
+              <img src="../top-resorces/top-images/cashless-logo.png" alt="">
+              <p class="h3 mt-2 text-tomato font-weight-bold">５％還元！</p>
+              <p class="mt-2 text-grey2 text-left">当事務所は、キャッシュレス・消費者還元事業の加盟店です。</p>
+            </div>
+            <div class="m-0 bg-bluegreen text-white">
+              <p class="p-3">メールアドレスにご請求書を送信します。請求書に記載されたリンクから、PayPalにログインしてお支払いいただけます。</p>
+            </div>
           </div>
         </div>
-        <!--  END メールでの決済  -->
-        <!--  ペイパルでの決済  -->
-        <div class="container bg-white pb-3 mb-5 startpoint" id="payment-paypal">
-          <h2 class="h4 p-2 m-0 mt-3 text-center bg-darkgreen text-white">
-            <strong>ペイパルでの決済</strong>
-          </h2>
-          <!-- PayPal Logo -->
-          <div class="pt-2">
-            <table border="0" cellpadding="10" cellspacing="0" align="center">
-              <tr>
-                <td align="center"><a href="#"
-                    onclick="javascript:window.open('https://www.paypal.com/jp/webapps/mpp/logo/about','olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=900, height=700');"><img
-                      src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/jp/developer/203x80_b.png" border="0" alt="ペイパル｜カード情報も、口座番号も、ペイパルが守ります。｜VISA, Mastercard, JCB, American Express, Union Pay, 銀行"></a></td>
-              </tr>
-            </table><!-- PayPal Logo -->
-          </div>
-          <p class="text-small pt-2">カードでも銀行口座からでも、一度設定すれば IDとパスワードでかんたん・安全にお支払い。<br>新規登録は無料。<br>銀行口座からのお支払いでも、振込手数料は無料です。 <br>※ご利用可能な銀行は、みずほ銀行、三井住友銀行、三菱UFJ銀行、ゆうちょ銀行、りそな銀行・埼玉りそな銀行です。</p>
-          <a href="https://www.paypal.com/jp/webapps/mpp/lp/about-paypal">
-            <p class="text-small">ペイパルについて</p>
-          </a>
-          <a href="https://www.paypal.com/jp/webapps/mpp/lp/set-up-bank">
-            <p class="text-small">銀行口座のご利用について</p>
-          </a>
-          <!--  Test PayPal決済ボタン  -->
-          <div class="text-center">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="HVEH779EA47YC">
-              <input type="image" src="https://www.paypalobjects.com/ja_JP/JP/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い">
-              <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1">
-            </form>
-          </div>
-          <!--  Test PayPal決済ボタン  -->
-        </div>
-        <!--  END ペイパルでの決済  -->
-        <!--  クレジットカード決済  -->
-        <div class="container bg-white pb-3 mb-5 startpoint" id="payment-card">
-          <h2 class="h4 p-2 m-0 mt-3 text-center bg-darkgreen text-white">
-            <strong>クレジットカード決済</strong>
-          </h2>
-          <p class="mt-2 text-small">面談でご相談される際に、クレジットカード決済ができます。</p>
-          <div class="text-center">
-            <img src="../top-resorces/top-images/square-card-logo02.png" class="img-fluid" alt="Responsive image">
+        <!-- End Flexbox PayPal -->
+        <!--  Flexbox振込 -->
+        <div class="d-flex justify-content-center mb-1 bg-white">
+          <div class="w-75 d-flex flex-column bd-highlight mb-3">
+            <div class="p-2 text-center">
+              <h2 class="h4 p-2 m-2 text-bluegreen">
+                <strong>振　込</strong></h2>
+            </div>
+            <div class="m-0 bg-bluegreen text-white">
+              <p class="px-3 pb-1 my-1"><strong>ジャパンネット銀行</strong><br>銀行コード0033</p>
+              <p class="px-3 pb-1 my-1"><strong>ビジネス営業部</strong><br>店番号005</p>
+            </div>
+            <div class="m-0 bg-bluegreen text-white">
+              <p class="px-3 pb-1 my-1"><strong>普通口座</strong></p>
+            </div>
+            <div class="m-0 bg-bluegreen text-white">
+              <p class="px-3 pb-1 my-1"><strong>口座番号：2593513</strong></p>
+            </div>
+            <div class="m-0 bg-bluegreen text-white">
+              <p class="px-3 pb-1 my-1"><strong>名義人：カタヤマヒデノリホウリツジムショカタヤマヒデノリ</strong></p>
+            </div>
+            <div class="m-0 bg-bluegreen text-white">
+              <p class="pl-3 pr-3 pb-4 m-0">＊振込手数料はお客様負担です。</p>
+            </div>
           </div>
         </div>
-        <!--  END クレジットカード決済  -->
-      </div>
-    </div>
-  </div>
 
+        <!-- End Flexbox振込  -->
+
+        <!--  Flexbox カード決済  -->
+        <div class="d-flex justify-content-center bg-white mb-1 px-2">
+          <div class="w-75 d-flex flex-column bd-highlight mb-3">
+            <div class="p-0 m-0 text-center">
+              <h2 class="h4 p-2 m-2 text-bluegreen">
+                <strong>クレジットカード</strong></h2>
+            </div>
+            <div class="p-2 text-center">
+              <img src="../top-resorces/top-images/cashless-logo.png" alt="">
+              <p class="h3 mt-2 text-tomato font-weight-bold">５％還元！</p>
+              <p class="mt-2 text-grey2 text-left">当事務所は、キャッシュレス・消費者還元事業の加盟店です。</p>
+            </div>
+            <div class="my-3 bg-bluegreen text-white">
+              <p class="p-3">ご来所いただいて相談される場合は、クレジットカード決済ができます。</p>
+            </div>
+            <div class="text-center">
+              <img src="../top-resorces/top-images/square-card-logo02.png" class="img-fluid" alt="Responsive image">
+            </div>
+          </div>
+        </div>
+        <!-- End Flexbox カード決済 -->
+      <!--  End お支払い方法  -->
 
 
   <div class="bg-white py-2">
@@ -274,27 +259,12 @@
       </a>
     </p>
   </div>
-  <div class="p-2 text-center text-darkgreen font-weight-bold">
+  <div class="p-2 text-center text-white font-weight-bold">
     <p class="mt-3">営業時間</p>
     <p>平日　10:00-19:00</p>
     <p>土曜日（隔週）10:00-18:00</p>
   </div>
-  <!--  無料法律相談やめるので隠す  --
-        <div class="p-3 bg-white">
-          <h2 class="h4 font-weight-bold">お電話で法律相談をしない理由</h2>
-          <p class="">
-            片山ひでのり法律事務所の初回１時間の無料法律相談は、事務所に来ていただき、実際に弁護士と直接話していただく方式です。したがって、お電話での無料法律相談はお受けしておりません。
-            <br>それは、私が、相談者のお顔を実際に拝見し、目を見て、表情も読み取って、ご相談に応じる必要があると考えているからです。
-            <br>お電話で簡単にお答えできればよいのですが、相談者の声だけを聞いて、的確にアドバイスをすることは、実際には難しいと私は考えております。
-            <br>弁護士は、相談者のお話から機会的に答えを出しているわけではありません。
-            <br>ご相談にいらした方のお話をひと通り聞いて、法律的に再構成する必要があり、そのためには、ご相談者の表情から感情を読み取り、言葉ではこう言っているが、実際の気持ちはどうなんだろう？とか、私の説明を誤解していないだろうか？などと様々な判断をする必要があります。
-            <br>ご相談者が言葉でおっしゃっていることと実際の気持ちがずれていることは、ままありますし、私の説明を誤解しているならば、もう少しわかりやすく、何度も、言葉を変えて説明する必要があります。
-            <br>もし、相談者が私のアドバイスを誤解したままでいることに気づかない場合には、相談者に大きな迷惑をかけることになりかねません。
-            <br>また、無料法律相談とは言っても、有料の法律相談と質的に変わりがあるわけではなく、したがって、ご相談に応じる弁護士として負う責任にも違いがあるわけではありません。
-            <br>その責任の大きさを考えると、少しお時間と手間はかかるかもしれませんが、当事務所まで足を運んでいただける方にだけ、私からの法的なアドバイスを差し上げたいと、私は考えております。
-          </p>
-        </div>
-        <!--  END 無料法律相談やめるので隠す  -->
+
   </div>
   </div>
   </div>
