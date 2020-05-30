@@ -6,15 +6,7 @@ p {
   font-size: 1.25rem;
 }*/
 
-.rgba {
-    background-color: rgba(0,0,0,0.7);
-}
-.dropdown-menu.rgba2 {
-    background-color: rgba(0,0,0,0.5);
-}
-.rgba2 a{
-  color: white;
-}
+
 
 
 .list-text{
@@ -114,8 +106,7 @@ a:hover{
   background-color: #066e83;
 }
 
-.navbar-light .navbar-nav .nav-link{
-  color: white;
+
 
 }
 .navbar-toggler-icon{
