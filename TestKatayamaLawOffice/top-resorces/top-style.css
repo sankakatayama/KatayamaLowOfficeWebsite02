@@ -83,8 +83,12 @@ a:hover{
 .navbar-light .navbar-brand:hover {
     color: #28a745;
 }
-
-
+.indent-1{
+  text-indent: 1em;
+}
+.indent-3{
+  text-indent: 3rem;
+}
 .footer-font p{
   font-size: 1rem;
 }
@@ -97,4 +101,8 @@ a:hover{
   border-color: #0c5460;
   min-height: 3rem;
 
+}
+.startpoint{
+  margin-top: -100px;
+  padding-top: 100px;
 }
